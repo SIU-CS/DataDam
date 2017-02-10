@@ -12,3 +12,6 @@ jones.jackson13@siu.edu
 
 Utsav Dhungel
 utsav@siu.edu
+
+Brandt Shultz
+brandt.shultz@siu.edu
