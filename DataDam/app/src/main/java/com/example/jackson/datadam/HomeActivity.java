@@ -26,7 +26,7 @@ import java.util.ArrayList;
         import android.app.ActivityManager;
         import android.net.NetworkInfo;
         import android.content.Context;
-        import android.app.ActivityManager.RunningAppProcessInfo;
+        import android.app.ActivityManager.RunningServiceInfo;
         import android.net.ConnectivityManager;
 
 import java.util.Collection;
@@ -40,16 +40,17 @@ class Application{
     private int uid;
     private long previousbytes;
     private long bytes=0;
+    public Application next;
 
     public Application(String name, int uid, long previousbytes){
         this.name=name;
         this.uid=uid;
         this.previousbytes=previousbytes;
     }
-    public void addBytes(long bytes){
-        long bytesused= bytes-previousbytes;
-        this.bytes+=bytesused;
-        previousbytes= bytes;
+    public void addBytes(long newbytes){
+        long bytesused= newbytes-previousbytes;
+        bytes= bytesused + bytes;
+        previousbytes= newbytes;
     }
     public void updatePrevious(long bytes){
         previousbytes=bytes;
@@ -70,128 +71,8 @@ public class HomeActivity extends Activity {
     ActivityManager manager;
 
     ConnectivityManager connectMgn;
-    List<RunningAppProcessInfo> runningapplications;
-    List<Application>applications= new List<Application>() {
-        @Override
-        public int size() {
-            return 0;
-        }
-
-        @Override
-        public boolean isEmpty() {
-            return false;
-        }
-
-        @Override
-        public boolean contains(Object o) {
-            return false;
-        }
-
-        @NonNull
-        @Override
-        public Iterator<Application> iterator() {
-            return null;
-        }
-
-        @NonNull
-        @Override
-        public Object[] toArray() {
-            return new Object[0];
-        }
-
-        @NonNull
-        @Override
-        public <T> T[] toArray(T[] ts) {
-            return null;
-        }
-
-        @Override
-        public boolean add(Application application) {
-            return false;
-        }
-
-        @Override
-        public boolean remove(Object o) {
-            return false;
-        }
-
-        @Override
-        public boolean containsAll(Collection<?> collection) {
-            return false;
-        }
-
-        @Override
-        public boolean addAll(Collection<? extends Application> collection) {
-            return false;
-        }
-
-        @Override
-        public boolean addAll(int i, Collection<? extends Application> collection) {
-            return false;
-        }
-
-        @Override
-        public boolean removeAll(Collection<?> collection) {
-            return false;
-        }
-
-        @Override
-        public boolean retainAll(Collection<?> collection) {
-            return false;
-        }
-
-        @Override
-        public void clear() {
-
-        }
-
-        @Override
-        public Application get(int i) {
-            return null;
-        }
-
-        @Override
-        public Application set(int i, Application application) {
-            return null;
-        }
-
-        @Override
-        public void add(int i, Application application) {
-
-        }
-
-        @Override
-        public Application remove(int i) {
-            return null;
-        }
-
-        @Override
-        public int indexOf(Object o) {
-            return 0;
-        }
-
-        @Override
-        public int lastIndexOf(Object o) {
-            return 0;
-        }
-
-        @Override
-        public ListIterator<Application> listIterator() {
-            return null;
-        }
-
-        @NonNull
-        @Override
-        public ListIterator<Application> listIterator(int i) {
-            return null;
-        }
-
-        @NonNull
-        @Override
-        public List<Application> subList(int i, int i1) {
-            return null;
-        }
-    };
+    List<ActivityManager.RunningServiceInfo> runningservices;
+    List<Application>applications= new ArrayList<Application>();
     private TextView RX;
     private TextView TX;
     private TextView HighestName;
@@ -207,7 +88,7 @@ public class HomeActivity extends Activity {
         TX = (TextView) findViewById(R.id.TX);
         HighestName= (TextView) findViewById(R.id.HN);
         HighestValue= (TextView) findViewById(R.id.HV);
-        manager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
+        manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         Applicationupdate(manager);
 
@@ -257,7 +138,7 @@ public class HomeActivity extends Activity {
         }
     };
 
-    // Checks to see if the device is online with ConnectivityManager
+    // Checks to see if the device is online with Wifi with ConnectivityManager
     // Returns true if network info exists and the phone is connected to a network
 //    public boolean isOnline(ConnectivityManager connectMgn){
 //
@@ -265,24 +146,24 @@ public class HomeActivity extends Activity {
 //        return (networkInfo != null && networkInfo.isConnected());
 //
 //    }
-// Checks for any new applications and adds them to a permanent list
-// If list is empty, the currently running applications form a new list
+// Checks for any new services and adds them to a permanent list
+// If list is empty, the currently running services form a new list
     private void Applicationupdate(ActivityManager manager){
-        runningapplications= manager.getRunningAppProcesses();
+        runningservices=manager.getRunningServices(Integer.MAX_VALUE);
         if(applications.isEmpty()){
-            for(RunningAppProcessInfo runningapplication : runningapplications){
-                int uid = runningapplication.uid;
-                String name=runningapplication.processName;
+            for(RunningServiceInfo runningservice : runningservices){
+                int uid = runningservice.uid;
+                String name=runningservice.service.getPackageName();
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                 Application newapplication= new Application(name,uid,bytes);
                 applications.add(newapplication);
             }
         }
         else{
-            for(RunningAppProcessInfo runningapplication : runningapplications){
+            for(RunningServiceInfo runningservice :runningservices){
 
                 boolean duplicate = false;
-                int uid = runningapplication.uid;
+                int uid = runningservice.uid;
                 for(Application application: applications){
                     if(uid== application.getUid()){
                         duplicate= true;
@@ -291,7 +172,7 @@ public class HomeActivity extends Activity {
 
                 }
                 if(!duplicate){
-                    String name=runningapplication.processName;
+                    String name=runningservice.service.getPackageName();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     Application newapplication= new Application(name,uid,bytes);
                     applications.add(newapplication);
