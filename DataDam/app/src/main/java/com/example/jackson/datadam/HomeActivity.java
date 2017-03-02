@@ -10,24 +10,22 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-<<<<<<< HEAD
+
 
 import java.util.ArrayList;
 
-public class HomeActivity extends AppCompatActivity {
-
-
-}
-=======
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.net.TrafficStats;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
-
-
 import java.util.ArrayList;
+
+
+
+
+
 
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
@@ -36,6 +34,8 @@ public class HomeActivity extends Activity {
 
     private TextView RX;
     private TextView TX;
+
+    LineChart lineChart;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +55,49 @@ public class HomeActivity extends Activity {
         } else {
             mHandler.postDelayed(mRunnable, 1000);
         }
+
+
+
+        ArrayList<String> xAxes = new ArrayList<>();
+        ArrayList<Entry> yAxes = new ArrayList<>();
+        ArrayList<ILineDataSet> lineDataSets = new ArrayList<>();
+
+        //Code For the Line Graph
+        lineChart = (LineChart) findViewById(R.id.lineChart);
+
+        xAxes.add("Mon");
+        xAxes.add("Tue");
+        xAxes.add("Wed");
+        xAxes.add("Thur");
+        xAxes.add("Fri");
+
+        yAxes.add(new Entry(10,0));
+        yAxes.add(new Entry(50,1));
+        yAxes.add(new Entry(40,2));
+        yAxes.add(new Entry(60,3));
+        yAxes.add(new Entry(20,4));
+
+        String[] xaxes = new String[xAxes.size()];
+
+
+        for(int i=0; i<xAxes.size();i++){
+
+            xaxes[i]=xAxes.get(i).toString();
+
+        }
+
+
+        LineDataSet lineDataSet = new LineDataSet(yAxes,"values");
+        lineDataSet.setDrawCircles(true);
+        lineDataSet.setColor(Color.BLUE);
+
+        lineDataSets.add(lineDataSet);
+
+        lineChart.setData(new LineData(lineDataSets));
+        lineChart.setVisibleXRangeMaximum(65f);
+        lineChart.setTouchEnabled(true);
+        lineChart.setDragEnabled(true);
+
     }
 
     private final Runnable mRunnable = new Runnable() {
@@ -67,8 +110,7 @@ public class HomeActivity extends Activity {
             mHandler.postDelayed(mRunnable, 1000);
         }
     };
+
 }
 
 
-
->>>>>>> PrototypeLayout
