@@ -1,5 +1,37 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+=======
         "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
@@ -14,5 +46,6 @@
     {
         "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+>>>>>>> ServicesPrototype
     }
 ]
