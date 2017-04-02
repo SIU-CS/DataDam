@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         },Splash_Screen_TimeOut);
+
     }
 }

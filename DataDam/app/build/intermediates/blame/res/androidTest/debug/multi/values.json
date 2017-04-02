@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\4a9e5ae4eb2dd5baa71c780f76bd48da91595cb4\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

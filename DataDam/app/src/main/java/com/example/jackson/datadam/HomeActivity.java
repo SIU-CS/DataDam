@@ -1,7 +1,9 @@
 package com.example.jackson.datadam;
 
 import android.graphics.Color;
+import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -78,6 +80,7 @@ public class HomeActivity extends Activity {
     private TextView HighestName;
     private TextView HighestValue;
 
+    @RequiresApi(api = Build.VERSION_CODES.FROYO)
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
@@ -103,6 +106,7 @@ public class HomeActivity extends Activity {
     }
 
     private final Runnable mRunnable = new Runnable() {
+        @RequiresApi(api = Build.VERSION_CODES.FROYO)
         public void run() {
             Applicationupdate(manager);
             long totalbytes= TrafficStats.getTotalRxBytes();
@@ -148,6 +152,7 @@ public class HomeActivity extends Activity {
 //    }
 // Checks for any new services and adds them to a permanent list
 // If list is empty, the currently running services form a new list
+    @RequiresApi(api = Build.VERSION_CODES.FROYO)
     private void Applicationupdate(ActivityManager manager){
         runningservices=manager.getRunningServices(Integer.MAX_VALUE);
         if(applications.isEmpty()){
