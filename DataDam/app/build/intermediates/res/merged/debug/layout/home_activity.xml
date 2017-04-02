@@ -52,14 +52,15 @@
             android:gravity="center"
             android:text="0"
             android:textSize="14sp" />
-
-        <com.github.mikephil.charting.charts.LineChart
-
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/lineChart">
-        </com.github.mikephil.charting.charts.LineChart>
+
+        </RelativeLayout>
+
     </LinearLayout>
+
 
 
 </android.support.constraint.ConstraintLayout>
