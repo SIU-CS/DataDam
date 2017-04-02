@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v16/notification_template_custom_big.xml"
+    }
+]

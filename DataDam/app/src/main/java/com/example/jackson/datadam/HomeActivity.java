@@ -1,30 +1,14 @@
 package com.example.jackson.datadam;
 
-<<<<<<< HEAD
 import android.os.Bundle;
 
-=======
-import android.graphics.Color;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
->>>>>>> ServicesPrototype
 
 import java.util.ArrayList;
 
 
-        import android.app.Activity;
-        import android.app.AlertDialog;
-        import android.net.TrafficStats;
-<<<<<<< HEAD
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.net.TrafficStats;
 import android.os.Handler;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,33 +16,15 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-        import android.app.ActivityManager;
+import android.app.ActivityManager;
 import android.content.Context;
-        import android.app.ActivityManager.RunningServiceInfo;
-        import android.net.ConnectivityManager;
+import android.app.ActivityManager.RunningServiceInfo;
+import android.net.ConnectivityManager;
 
 import com.jaredrummler.android.processes.AndroidProcesses;
 
 import java.util.List;
 
-=======
-        import android.os.Bundle;
-        import android.os.Handler;
-        import android.widget.ListView;
-        import android.widget.TextView;
-        import android.app.ActivityManager;
-        import android.net.NetworkInfo;
-        import android.content.Context;
-        import android.app.ActivityManager.RunningServiceInfo;
-        import android.net.ConnectivityManager;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-
-import 	android.app.ListActivity;
->>>>>>> ServicesPrototype
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
     private long PreviousRX = 0;
@@ -67,7 +33,6 @@ public class HomeActivity extends Activity {
     ActivityManager manager;
 
     ConnectivityManager connectMgn;
-<<<<<<< HEAD
 
     List<ActivityManager.RunningServiceInfo> runningservices;
     List<Application> mAppList = new ArrayList<Application>();
@@ -95,32 +60,22 @@ public class HomeActivity extends Activity {
 
 
 
-=======
-    List<ActivityManager.RunningServiceInfo> runningservices;
-    List<Application>applications= new ArrayList<Application>();
->>>>>>> ServicesPrototype
     private TextView RX;
     private TextView TX;
     private TextView HighestName;
     private TextView HighestValue;
-<<<<<<< HEAD
 
     public List<Application> getmAppList(){
         return mAppList;
     }
-=======
->>>>>>> ServicesPrototype
 
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_activity);
-<<<<<<< HEAD
 
-       // adapter = new ArrayAdapter (this,R.layout.application_view,mAppList);
+        // adapter = new ArrayAdapter (this,R.layout.application_view,mAppList);
 
-=======
->>>>>>> ServicesPrototype
         PreviousRX = TrafficStats.getTotalRxBytes();
         PreviousTX = TrafficStats.getTotalTxBytes();
         RX = (TextView) findViewById(R.id.RX);
@@ -169,33 +124,22 @@ public class HomeActivity extends Activity {
             //If the device is offline, Data Dam records the data to the bytes the device has used offline.
             //Otherwise the system updates the flags to prepare for the next runnable cycle.
 //            if(!isOnline(connectMgn)) {
-                rxBytes = rxBytes + currentRX;
-                txBytes= txBytes + currentTX;
-                RX.setText(Long.toString(rxBytes));
-                TX.setText(Long.toString(txBytes));
-<<<<<<< HEAD
-                for(Application application: mAppList){
-=======
-                for(Application application: applications){
->>>>>>> ServicesPrototype
-                  int uid = application.getUid();
-                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    application.addBytes(bytes);
-                }
-<<<<<<< HEAD
+            rxBytes = rxBytes + currentRX;
+            txBytes= txBytes + currentTX;
+            RX.setText(Long.toString(rxBytes));
+            TX.setText(Long.toString(txBytes));
+            for(Application application: mAppList){
+                int uid = application.getUid();
+                long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                application.addBytes(bytes);
+            }
 //                mAppAdapter.notifyDataSetChanged();
-=======
->>>>>>> ServicesPrototype
             Application highest = HighestUsingApplication();
             HighestName.setText(highest.getName());
             HighestValue.setText(Long.toString(highest.getBytes()));
 //            }
             /*else{
-<<<<<<< HEAD
                 for(Application application: mAppList){
-=======
-                for(Application application: applications){
->>>>>>> ServicesPrototype
                     int uid = application.getUid();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     application.updatePrevious(bytes);
@@ -217,21 +161,13 @@ public class HomeActivity extends Activity {
 // If list is empty, the currently running services form a new list
     private void Applicationupdate(ActivityManager manager){
         runningservices=manager.getRunningServices(Integer.MAX_VALUE);
-<<<<<<< HEAD
         if(mAppList.isEmpty()){
-=======
-        if(applications.isEmpty()){
->>>>>>> ServicesPrototype
             for(RunningServiceInfo runningservice : runningservices){
                 int uid = runningservice.uid;
                 String name=runningservice.service.getPackageName();
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                 Application newapplication= new Application(name,uid,bytes);
-<<<<<<< HEAD
                 mAppList.add(newapplication);
-=======
-                applications.add(newapplication);
->>>>>>> ServicesPrototype
             }
         }
         else{
@@ -239,11 +175,7 @@ public class HomeActivity extends Activity {
 
                 boolean duplicate = false;
                 int uid = runningservice.uid;
-<<<<<<< HEAD
                 for(Application application: mAppList){
-=======
-                for(Application application: applications){
->>>>>>> ServicesPrototype
                     if(uid== application.getUid()){
                         duplicate= true;
                         break;
@@ -254,11 +186,7 @@ public class HomeActivity extends Activity {
                     String name=runningservice.service.getPackageName();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     Application newapplication= new Application(name,uid,bytes);
-<<<<<<< HEAD
                     mAppList.add(newapplication);
-=======
-                    applications.add(newapplication);
->>>>>>> ServicesPrototype
                 }
 
 
@@ -268,11 +196,7 @@ public class HomeActivity extends Activity {
     //Determines the application that is using the most data.
     private Application HighestUsingApplication(){
         Application highest= null;
-<<<<<<< HEAD
         for(Application application: mAppList){
-=======
-        for(Application application: applications){
->>>>>>> ServicesPrototype
             if(highest==null)
                 highest=application;
             else{
