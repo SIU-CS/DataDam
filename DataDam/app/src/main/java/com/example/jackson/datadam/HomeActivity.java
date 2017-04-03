@@ -15,6 +15,7 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.github.mikephil.charting.utils.ColorTemplate;
 
 
 import java.util.ArrayList;
@@ -35,11 +36,11 @@ import static com.example.jackson.datadam.R.layout.home_activity;
 
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
-    private long mStartRX = 0;
-    private long mStartTX = 0;
+    private static long mStartRX = 0;
+    private static long mStartTX = 0;
 
-    private TextView RX;
-    private TextView TX;
+    private static TextView RX;
+    private static TextView TX;
 
 
     private RelativeLayout lineChart;
@@ -62,12 +63,12 @@ public class HomeActivity extends Activity {
         mChart = new LineChart(this);
         //add to main layout
         //activity_main.addView(mChart);
-        lineChart.addView(mChart,1100,1100);
+        lineChart.addView(mChart,1000,1000);
 
 
         //When the chart content is not displayed
-        mChart.setContentDescription("");
-        mChart.setNoDataText("No data to plot the graph at this moment");
+       // mChart.setContentDescription("");
+       // mChart.setNoDataText("No data to plot the graph at this moment");
 
         //enable value highlighting
         mChart.setHighlightPerDragEnabled(true);
@@ -93,7 +94,7 @@ public class HomeActivity extends Activity {
         //Data to Plot the Graph
         LineData data = new LineData();
 
-        data.setValueTextColor(Color.WHITE);
+        data.setValueTextColor(Color.BLACK);
 
         //add data to linechart
         mChart.setData(data);
@@ -103,18 +104,19 @@ public class HomeActivity extends Activity {
         Legend legend = mChart.getLegend();
 
         legend.setForm(Legend.LegendForm.LINE);
-        legend.setTextColor(Color.WHITE);
+        legend.setTextColor(Color.BLACK);
 
 
 
         XAxis x1 = mChart.getXAxis();
-        x1.setTextColor(Color.WHITE);
+        x1.setTextColor(Color.BLACK);
         x1.setDrawGridLines(false);
         x1.setAvoidFirstLastClipping(true);
 
         YAxis y1 = mChart.getAxisLeft();
-        y1.setTextColor(Color.WHITE);
-        y1.setAxisMaximum(100f);
+        y1.setTextColor(Color.BLACK);
+        y1.setAxisMinimum(0f);
+        y1.setAxisMaximum(1000f);
         y1.setDrawGridLines(true);
 
         YAxis y12 = mChart.getAxisRight();
@@ -182,6 +184,57 @@ public class HomeActivity extends Activity {
 
     }
 
+    private void addEntry(String data_Value) {
+
+        LineData data = mChart.getData();
+        float data_val=Float.parseFloat(data_Value);
+        if (data != null) {
+
+            ILineDataSet set = data.getDataSetByIndex(0);
+            // set.addEntry(...); // can be called as well
+
+            if (set == null) {
+                set = createSet();
+                data.addDataSet(set);
+            }
+
+            data.addEntry(new Entry(set.getEntryCount(), (data_val/1024)), 0);
+            data.notifyDataChanged();
+
+            // let the chart know it's data has changed
+            mChart.notifyDataSetChanged();
+
+            // limit the number of visible entries
+            mChart.setVisibleXRangeMaximum(6);
+            // mChart.setVisibleYRange(30, AxisDependency.LEFT);
+
+            // move to the latest entry
+            mChart.moveViewToX(data.getEntryCount());
+
+            // this automatically refreshes the chart (calls invalidate())
+            // mChart.moveViewTo(data.getXValCount()-7, 55f,
+            // AxisDependency.LEFT);
+        }
+    }
+
+
+    private LineDataSet createSet() {
+
+        LineDataSet set = new LineDataSet(null, "Data in KBPS");
+        set.setAxisDependency(YAxis.AxisDependency.LEFT);
+        set.setColor(ColorTemplate.getHoloBlue());
+        set.setCircleColor(Color.BLACK);
+        set.setLineWidth(2f);
+        set.setCircleRadius(4f);
+        set.setFillAlpha(65);
+        set.setFillColor(ColorTemplate.getHoloBlue());
+        set.setHighLightColor(Color.rgb(244, 117, 117));
+        set.setValueTextColor(Color.BLACK);
+        set.setValueTextSize(9f);
+        set.setDrawValues(false);
+        return set;
+    }
+
     private final Runnable mRunnable = new Runnable() {
         public void run() {
 
@@ -189,7 +242,10 @@ public class HomeActivity extends Activity {
             RX.setText(Long.toString(rxBytes));
             long txBytes = TrafficStats.getTotalTxBytes() - mStartTX;
             TX.setText(Long.toString(txBytes));
+
+            addEntry(Long.toString(txBytes+rxBytes));
             mHandler.postDelayed(mRunnable, 1000);
+
         }
     };
 
