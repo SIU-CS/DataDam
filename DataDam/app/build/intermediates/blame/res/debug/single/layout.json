@@ -104,6 +104,10 @@
         "source": "/home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout/application_view.xml",
+        "source": "/home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/res/layout/application_view.xml"
+    },
+    {
         "merged": "/home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_action_mode_close_item_material.xml"
     },

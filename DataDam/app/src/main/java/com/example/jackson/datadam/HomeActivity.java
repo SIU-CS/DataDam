@@ -1,12 +1,20 @@
 package com.example.jackson.datadam;
 
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.ActivityManager.RunningServiceInfo;
+import android.app.AlertDialog;
+import android.content.Context;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+import android.net.ConnectivityManager;
+import android.net.TrafficStats;
 import android.os.Bundle;
-import android.graphics.Color;
+import android.os.Handler;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-
-import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
@@ -17,58 +25,92 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
-
 import java.util.ArrayList;
-
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.net.TrafficStats;
-import android.os.Bundle;
-import android.os.Handler;
-import android.widget.AbsListView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import java.util.ArrayList;
-
-import static com.example.jackson.datadam.R.layout.activity_main;
-import static com.example.jackson.datadam.R.layout.home_activity;
-
+import java.util.List;
 
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
-    private static long mStartRX = 0;
-    private static long mStartTX = 0;
+    private long PreviousRX = 0;
+    private long PreviousTX= 0;
+    private long currentRX, currentTX, rxBytes, txBytes, TotalxBytes;
+    ActivityManager manager;
 
-    private static TextView RX;
-    private static TextView TX;
+    ConnectivityManager connectMgn;
 
+    List<ActivityManager.RunningServiceInfo> runningservices;
+    List<Application> mAppList = new ArrayList<Application>();
+
+//    public List<ActivityManager.RunningAppProcessInfo> processes = AndroidProcesses.getRunningAppProcessInfo(getApplication());
+
+//    private RecyclerView recyclerView;
+//    private ApplicationAdapter mAppAdapter;
+
+
+    public String[] getRunningApps() {
+        int n = mAppList.size();
+
+        String[] appsRunning = new String[n];
+
+        for(int i = 0; i < n; i++) {
+            appsRunning[i] = mAppList.get(i).getName();
+        }
+
+//        Object [] applicationsArray = mAppList.toArray();
+
+        return appsRunning;
+    }
+
+
+
+
+    private TextView RX;
+    private TextView TX;
+    private TextView HighestName;
+    private TextView HighestValue;
 
     private RelativeLayout lineChart;
 
     private LineChart mChart;
 
+
+
+
+    public List<Application> getmAppList(){
+        return mAppList;
+    }
+
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_activity);
 
-        mStartRX = TrafficStats.getTotalRxBytes();
-        mStartTX = TrafficStats.getTotalTxBytes();
+        // adapter = new ArrayAdapter (this,R.layout.application_view,mAppList);
 
+        PreviousRX = TrafficStats.getTotalRxBytes();
+        PreviousTX = TrafficStats.getTotalTxBytes();
         RX = (TextView) findViewById(R.id.RX);
-        TX = (TextView) findViewById(R.id.TX);
+        //TX = (TextView) findViewById(R.id.TX);
+        HighestName= (TextView) findViewById(R.id.HN);
+        HighestValue= (TextView) findViewById(R.id.HV);
+        manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        Applicationupdate(manager);
 
+
+
+        //////////////////////////////////////////////
 
         lineChart = (RelativeLayout) findViewById(R.id.lineChart);
         //create line chart
         mChart = new LineChart(this);
         //add to main layout
         //activity_main.addView(mChart);
-        lineChart.addView(mChart,1000,1000);
+        lineChart.addView(mChart,1100,1200);
 
 
         //When the chart content is not displayed
-       // mChart.setContentDescription("");
-       // mChart.setNoDataText("No data to plot the graph at this moment");
+        // mChart.setContentDescription("");
+        // mChart.setNoDataText("No data to plot the graph at this moment");
 
         //enable value highlighting
         mChart.setHighlightPerDragEnabled(true);
@@ -125,52 +167,21 @@ public class HomeActivity extends Activity {
 
 
 
-
-      /*  ArrayList<String> xAxes = new ArrayList<>();
-        ArrayList<Entry> yAxes = new ArrayList<>();
-        ArrayList<ILineDataSet> lineDataSets = new ArrayList<>();
-
-        //Code For the Line Graph
-
-
-        xAxes.add("Mon");
-        xAxes.add("Tue");
-        xAxes.add("Wed");
-        xAxes.add("Thur");
-        xAxes.add("Fri");
-
-        yAxes.add(new Entry((mStartRX),0));
-        yAxes.add(new Entry((mStartRX+mStartTX),1));
-        yAxes.add(new Entry(40,2));
-        yAxes.add(new Entry(50,3));
-        yAxes.add(new Entry(60,4));
-
-        String[] xaxes = new String[xAxes.size()];
-
-
-        for(int i=0; i<xAxes.size();i++){
-
-            xaxes[i]=xAxes.get(i).toString();
-
-        }
+        //////////////////////////////////////////////
 
 
 
 
-        LineDataSet lineDataSet = new LineDataSet(yAxes,"values");
-        lineDataSet.setDrawCircles(true);
-        lineDataSet.setColor(Color.BLUE);
-
-        lineDataSets.add(lineDataSet);
-
-        lineChart.setData(new LineData( lineDataSet));
-        lineChart.setVisibleXRangeMaximum(65f);
-        lineChart.setTouchEnabled(true);
-        lineChart.setDragEnabled(true);*/
 
 
 
-        if (mStartRX == TrafficStats.UNSUPPORTED || mStartTX == TrafficStats.UNSUPPORTED) {
+
+
+
+
+
+
+        if (PreviousRX== TrafficStats.UNSUPPORTED || PreviousTX == TrafficStats.UNSUPPORTED) {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("Uh Oh!");
             alert.setMessage("Your device does not support traffic stat monitoring.");
@@ -179,10 +190,25 @@ public class HomeActivity extends Activity {
             mHandler.postDelayed(mRunnable, 1000);
         }
 
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        // COMPLETED (41) Set the layoutManager on mRecyclerView
+        ListView listView = (ListView) findViewById(R.id.list_item);
+//        recyclerView = (RecyclerView) findViewById(R.id.RecyclerView);
+//        mAppAdapter = new ApplicationAdapter(mAppList);
+//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+//        recyclerView.setLayoutManager(mLayoutManager);
+//        recyclerView.setItemAnimator(new DefaultItemAnimator());
+//        recyclerView.setAdapter(mAppAdapter);
 
+        //array adapter for list view
 
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,getRunningApps());
+        listView.setAdapter(adapter);
 
     }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+    //Line Chart Code
 
     private void addEntry(String data_Value) {
 
@@ -205,7 +231,7 @@ public class HomeActivity extends Activity {
             mChart.notifyDataSetChanged();
 
             // limit the number of visible entries
-            mChart.setVisibleXRangeMaximum(6);
+            mChart.setVisibleXRangeMaximum(5);
             // mChart.setVisibleYRange(30, AxisDependency.LEFT);
 
             // move to the latest entry
@@ -235,20 +261,116 @@ public class HomeActivity extends Activity {
         return set;
     }
 
+
+
+
+    /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
     private final Runnable mRunnable = new Runnable() {
         public void run() {
+            Applicationupdate(manager);
+            long totalbytes= TrafficStats.getTotalRxBytes();
+            currentRX = totalbytes - PreviousRX;
+            PreviousRX= totalbytes;
+            totalbytes = TrafficStats.getTotalTxBytes();
+            currentTX= totalbytes - PreviousTX;
+            PreviousTX= totalbytes;
+            //If the device is offline, Data Dam records the data to the bytes the device has used offline.
+            //Otherwise the system updates the flags to prepare for the next runnable cycle.
+//            if(!isOnline(connectMgn)) {
+            rxBytes = rxBytes + currentRX;
+            txBytes= txBytes + currentTX;
+            TotalxBytes = rxBytes + txBytes;
 
-            long rxBytes = TrafficStats.getTotalRxBytes() - mStartRX;
-            RX.setText(Long.toString(rxBytes));
-            long txBytes = TrafficStats.getTotalTxBytes() - mStartTX;
-            TX.setText(Long.toString(txBytes));
-
+            //Calls the graph function
             addEntry(Long.toString(txBytes+rxBytes));
-            mHandler.postDelayed(mRunnable, 1000);
 
+
+            RX.setText(Long.toString(TotalxBytes));
+            //TX.setText(Long.toString(txBytes));
+
+            for(Application application: mAppList){
+                int uid = application.getUid();
+                long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                application.addBytes(bytes);
+            }
+//                mAppAdapter.notifyDataSetChanged();
+            Application highest = HighestUsingApplication();
+            HighestName.setText(highest.getName());
+            HighestValue.setText(Long.toString(highest.getBytes()));
+//            }
+            /*else{
+                for(Application application: mAppList){
+                    int uid = application.getUid();
+                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                    application.updatePrevious(bytes);
+                }
+            }*/
+            mHandler.postDelayed(mRunnable, 1000);
         }
     };
 
+    // Checks to see if the device is online with Wifi with ConnectivityManager
+    // Returns true if network info exists and the phone is connected to a network
+//    public boolean isOnline(ConnectivityManager connectMgn){
+//
+//        NetworkInfo networkInfo = connectMgn.getActiveNetworkInfo();
+//        return (networkInfo != null && networkInfo.isConnected());
+//
+//    }
+// Checks for any new services and adds them to a permanent list
+// If list is empty, the currently running services form a new list
+    private void Applicationupdate(ActivityManager manager){
+        runningservices=manager.getRunningServices(Integer.MAX_VALUE);
+        if(mAppList.isEmpty()){
+            for(RunningServiceInfo runningservice : runningservices){
+                int uid = runningservice.uid;
+                String name=runningservice.service.getPackageName();
+                long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                Application newapplication= new Application(name,uid,bytes);
+                mAppList.add(newapplication);
+            }
+        }
+        else{
+            for(RunningServiceInfo runningservice :runningservices){
+
+                boolean duplicate = false;
+                int uid = runningservice.uid;
+                for(Application application: mAppList){
+                    if(uid== application.getUid()){
+                        duplicate= true;
+                        break;
+                    }
+
+                }
+                if(!duplicate){
+                    String name=runningservice.service.getPackageName();
+                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                    Application newapplication= new Application(name,uid,bytes);
+                    mAppList.add(newapplication);
+                }
+
+
+            }
+        }
+    }
+    //Determines the application that is using the most data.
+    private Application HighestUsingApplication(){
+        Application highest= null;
+        for(Application application: mAppList){
+            if(highest==null)
+                highest=application;
+            else{
+                if(highest.getBytes()<application.getBytes())
+                    highest=application;
+            }
+        }
+        return highest;
+    }
 }
+
 
 
