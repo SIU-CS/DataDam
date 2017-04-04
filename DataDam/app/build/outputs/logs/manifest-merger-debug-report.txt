@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\mai
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:9:5-29:19
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:9:5-44:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:25:5-20
@@ -58,9 +58,17 @@ ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\mai
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.example.jackson.datadam.HomeActivity
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:27:9-59
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:27:19-47
+activity#com.example.jackson.datadam.DataLimitsActivity
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:34:19-53
+activity#com.example.jackson.datadam.AddDataLimit
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:9-59
+	android:name
+		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:19-47
 uses-sdk
 INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:21:5-23:78

@@ -14,7 +14,25 @@
         android:text="Traffic Stats Demo"
         android:textSize="16sp"
         android:textStyle="bold" />
-
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    >
+    <Button
+        android:text="Data Limits"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:id="@+id/DataLimits"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimePeriods"
+        android:text="Time Periods"
+        android:layout_weight="1"/>
+</LinearLayout>
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

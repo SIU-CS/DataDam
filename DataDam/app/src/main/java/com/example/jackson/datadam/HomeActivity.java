@@ -15,14 +15,16 @@ import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 
 import java.util.ArrayList;
 
-
+        import android.content.Intent;
         import android.app.Activity;
         import android.app.AlertDialog;
         import android.net.TrafficStats;
         import android.os.Bundle;
         import android.os.Handler;
+        import android.view.View;
         import android.widget.ListView;
         import android.widget.TextView;
+        import android.widget.Button;
         import android.app.ActivityManager;
         import android.net.NetworkInfo;
         import android.content.Context;
@@ -33,8 +35,13 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+import java.io.*;
+import java.util.Scanner;
 
 import 	android.app.ListActivity;
+//Custom application class
+//Used to store the name, id, and data usage of an application on the device.
+
 class Application{
     private String name;
     private int uid;
@@ -42,16 +49,27 @@ class Application{
     private long bytes=0;
     public Application next;
 
+    public Application(String name, int uid, long previousbytes, long bytes){
+        this.name=name;
+        this.uid=uid;
+        this.previousbytes=previousbytes;
+        this.bytes= bytes;
+    }
     public Application(String name, int uid, long previousbytes){
         this.name=name;
         this.uid=uid;
         this.previousbytes=previousbytes;
+        bytes= previousbytes;
     }
+    //Adds bytes from current run cycle to the total number of bytes used.
+    //Updates previousbytes with the parameter to create a new comparison flag.
     public void addBytes(long newbytes){
         long bytesused= newbytes-previousbytes;
         bytes= bytesused + bytes;
         previousbytes= newbytes;
     }
+    //Updates previousbytes with new flag.
+    //Only used when application is online
     public void updatePrevious(long bytes){
         previousbytes=bytes;
     }
@@ -62,6 +80,11 @@ class Application{
         return bytes;
     }
     public String getName(){return name;}
+
+    @Override
+    public String toString(){
+        return name+" "+uid+ " "+bytes;
+    }
 }
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
@@ -69,9 +92,13 @@ public class HomeActivity extends Activity {
     private long PreviousTX= 0;
     private long currentRX, currentTX, rxBytes, txBytes;
     ActivityManager manager;
-
     ConnectivityManager connectMgn;
+    FileInputStream inputStream;
+    FileOutputStream outputStream;
+    String storage= "DataDamStorage";
+    String Limits= "DataDamLimits";
     List<ActivityManager.RunningServiceInfo> runningservices;
+    List<DataLimit> DataLimits= new ArrayList<DataLimit>();
     List<Application>applications= new ArrayList<Application>();
     private TextView RX;
     private TextView TX;
@@ -90,8 +117,55 @@ public class HomeActivity extends Activity {
         HighestValue= (TextView) findViewById(R.id.HV);
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        Applicationupdate(manager);
+        final Button DataLimits= (Button) findViewById(R.id.DataLimits);
+        final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
+        //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
+        try {
+            outputStream=openFileOutput(storage, Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
 
+        }
+        try {
+            outputStream=openFileOutput(Limits,Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
+
+        }
+
+        //Reads from storage file then populates the rx, tx, and applications with data from the scanner.
+        try{
+               inputStream=openFileInput(storage);
+               Scanner scaninput= new Scanner(inputStream);
+            //Scan once for the totalbytes value
+               rxBytes= Long.parseLong(scaninput.next());
+               txBytes= Long.parseLong(scaninput.next());
+            //
+               while(scaninput.hasNext()){
+                   int uid = scaninput.nextInt();
+                   String name=scaninput.next();
+                    long previousbytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                    long bytes= scaninput.nextLong()+previousbytes;
+                     Application newapplication= new Application(name,uid,previousbytes,bytes);
+                    applications.add(newapplication);
+               }
+            scaninput.close();
+            inputStream.close();
+        }catch(Exception e){
+
+        }
+
+        //Button listener for DataLimits, starts the DataLimits activity on click.
+        DataLimits.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(DataIntent);
+                //moveTaskToBack(true);
+            }
+        });
+
+
+        Applicationupdate(manager);
+// Tests to see whether the Data Dam application is compatible with TrafficStats
         if (PreviousRX== TrafficStats.UNSUPPORTED || PreviousTX == TrafficStats.UNSUPPORTED) {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("Uh Oh!");
@@ -101,6 +175,9 @@ public class HomeActivity extends Activity {
             mHandler.postDelayed(mRunnable, 1000);
         }
     }
+    //Main runnable for Data Dam
+    //Compares current bytes used to previous markers to assess how much data has been used within that time frame
+    //The values for the total data used by the device and the data for individual applications is updated by adding the data used in the time frame to each individual total.
 
     private final Runnable mRunnable = new Runnable() {
         public void run() {
@@ -111,9 +188,6 @@ public class HomeActivity extends Activity {
             totalbytes = TrafficStats.getTotalTxBytes();
             currentTX= totalbytes - PreviousTX;
             PreviousTX= totalbytes;
-            //If the device is offline, Data Dam records the data to the bytes the device has used offline.
-            //Otherwise the system updates the flags to prepare for the next runnable cycle.
-//            if(!isOnline(connectMgn)) {
                 rxBytes = rxBytes + currentRX;
                 txBytes= txBytes + currentTX;
                 RX.setText(Long.toString(rxBytes));
@@ -123,29 +197,28 @@ public class HomeActivity extends Activity {
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     application.addBytes(bytes);
                 }
+           try {
+                outputStream=openFileOutput(storage, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+               //Change to the pw.println(totalbytesvalue)
+                pw.print(rxBytes + " ");
+                pw.println(txBytes);
+               //
+                for(Application application: applications){
+                    pw.println(application.toString());
+                }
+                pw.close();
+                outputStream.close();
+            }catch(Exception e){
+
+            }
             Application highest = HighestUsingApplication();
             HighestName.setText(highest.getName());
             HighestValue.setText(Long.toString(highest.getBytes()));
-//            }
-            /*else{
-                for(Application application: applications){
-                    int uid = application.getUid();
-                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    application.updatePrevious(bytes);
-                }
-            }*/
             mHandler.postDelayed(mRunnable, 1000);
         }
     };
 
-    // Checks to see if the device is online with Wifi with ConnectivityManager
-    // Returns true if network info exists and the phone is connected to a network
-//    public boolean isOnline(ConnectivityManager connectMgn){
-//
-//        NetworkInfo networkInfo = connectMgn.getActiveNetworkInfo();
-//        return (networkInfo != null && networkInfo.isConnected());
-//
-//    }
 // Checks for any new services and adds them to a permanent list
 // If list is empty, the currently running services form a new list
     private void Applicationupdate(ActivityManager manager){
@@ -183,6 +256,7 @@ public class HomeActivity extends Activity {
         }
     }
     //Determines the application that is using the most data.
+    //This is done by comparing each applications data usage and returning the one with highest value
     private Application HighestUsingApplication(){
         Application highest= null;
         for(Application application: applications){
