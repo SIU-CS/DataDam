@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by jackson on 3/29/17.
  */
-class Application  {
+class Application {
 
 
     private String name;
@@ -20,8 +20,6 @@ class Application  {
     private long previousbytes;
     private long bytes = 0;
     public Application next;
-
-
 
 
     public Application(String name, int uid, long previousbytes) {
@@ -57,11 +55,14 @@ class Application  {
 
     }
 
-
-
-
-
+    public String ListViewPopulate(){
+        return name+ "\n" + bytes;
     }
+
+
+}
+
+
 
 
 
