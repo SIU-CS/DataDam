@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/jackson/DataDam-production/DataDam/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/jackson/AndroidStudioProjects/DataDam/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

@@ -1,70 +1,38 @@
 package com.example.jackson.datadam;
 
+<<<<<<< HEAD
 import android.graphics.Color;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
+=======
+>>>>>>> origin/UpdatedAppList
 import android.os.Bundle;
 
-
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 
 import java.util.ArrayList;
 
 
-        import android.app.Activity;
-        import android.app.AlertDialog;
-        import android.net.TrafficStats;
-        import android.os.Bundle;
-        import android.os.Handler;
-        import android.widget.ListView;
-        import android.widget.TextView;
-        import android.app.ActivityManager;
-        import android.net.NetworkInfo;
-        import android.content.Context;
-        import android.app.ActivityManager.RunningServiceInfo;
-        import android.net.ConnectivityManager;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.net.TrafficStats;
+import android.os.Handler;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.app.ActivityManager;
+import android.content.Context;
+import android.app.ActivityManager.RunningServiceInfo;
+import android.net.ConnectivityManager;
 
-import java.util.Collection;
-import java.util.Iterator;
+import com.jaredrummler.android.processes.AndroidProcesses;
+
 import java.util.List;
-import java.util.ListIterator;
 
-import 	android.app.ListActivity;
-class Application{
-    private String name;
-    private int uid;
-    private long previousbytes;
-    private long bytes=0;
-    public Application next;
-
-    public Application(String name, int uid, long previousbytes){
-        this.name=name;
-        this.uid=uid;
-        this.previousbytes=previousbytes;
-    }
-    public void addBytes(long newbytes){
-        long bytesused= newbytes-previousbytes;
-        bytes= bytesused + bytes;
-        previousbytes= newbytes;
-    }
-    public void updatePrevious(long bytes){
-        previousbytes=bytes;
-    }
-    public int getUid(){
-        return uid;
-    }
-    public long getBytes(){
-        return bytes;
-    }
-    public String getName(){return name;}
-}
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
     private long PreviousRX = 0;
@@ -73,18 +41,53 @@ public class HomeActivity extends Activity {
     ActivityManager manager;
 
     ConnectivityManager connectMgn;
+
     List<ActivityManager.RunningServiceInfo> runningservices;
-    List<Application>applications= new ArrayList<Application>();
+    List<Application> mAppList = new ArrayList<Application>();
+
+//    public List<ActivityManager.RunningAppProcessInfo> processes = AndroidProcesses.getRunningAppProcessInfo(getApplication());
+
+//    private RecyclerView recyclerView;
+//    private ApplicationAdapter mAppAdapter;
+
+
+    public String[] getRunningApps() {
+        int n = mAppList.size();
+
+        String[] appsRunning = new String[n];
+
+        for(int i = 0; i < n; i++) {
+            appsRunning[i] = mAppList.get(i).getName();
+        }
+
+//        Object [] applicationsArray = mAppList.toArray();
+
+        return appsRunning;
+    }
+
+
+
+
     private TextView RX;
     private TextView TX;
     private TextView HighestName;
     private TextView HighestValue;
 
+<<<<<<< HEAD
     @RequiresApi(api = Build.VERSION_CODES.FROYO)
+=======
+    public List<Application> getmAppList(){
+        return mAppList;
+    }
+
+>>>>>>> origin/UpdatedAppList
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_activity);
+
+        // adapter = new ArrayAdapter (this,R.layout.application_view,mAppList);
+
         PreviousRX = TrafficStats.getTotalRxBytes();
         PreviousTX = TrafficStats.getTotalTxBytes();
         RX = (TextView) findViewById(R.id.RX);
@@ -103,6 +106,22 @@ public class HomeActivity extends Activity {
         } else {
             mHandler.postDelayed(mRunnable, 1000);
         }
+
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        // COMPLETED (41) Set the layoutManager on mRecyclerView
+        ListView listView = (ListView) findViewById(R.id.list_item);
+//        recyclerView = (RecyclerView) findViewById(R.id.RecyclerView);
+//        mAppAdapter = new ApplicationAdapter(mAppList);
+//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+//        recyclerView.setLayoutManager(mLayoutManager);
+//        recyclerView.setItemAnimator(new DefaultItemAnimator());
+//        recyclerView.setAdapter(mAppAdapter);
+
+        //array adapter for list view
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,getRunningApps());
+        listView.setAdapter(adapter);
+
     }
 
     private final Runnable mRunnable = new Runnable() {
@@ -118,21 +137,22 @@ public class HomeActivity extends Activity {
             //If the device is offline, Data Dam records the data to the bytes the device has used offline.
             //Otherwise the system updates the flags to prepare for the next runnable cycle.
 //            if(!isOnline(connectMgn)) {
-                rxBytes = rxBytes + currentRX;
-                txBytes= txBytes + currentTX;
-                RX.setText(Long.toString(rxBytes));
-                TX.setText(Long.toString(txBytes));
-                for(Application application: applications){
-                  int uid = application.getUid();
-                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    application.addBytes(bytes);
-                }
+            rxBytes = rxBytes + currentRX;
+            txBytes= txBytes + currentTX;
+            RX.setText(Long.toString(rxBytes));
+            TX.setText(Long.toString(txBytes));
+            for(Application application: mAppList){
+                int uid = application.getUid();
+                long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                application.addBytes(bytes);
+            }
+//                mAppAdapter.notifyDataSetChanged();
             Application highest = HighestUsingApplication();
             HighestName.setText(highest.getName());
             HighestValue.setText(Long.toString(highest.getBytes()));
 //            }
             /*else{
-                for(Application application: applications){
+                for(Application application: mAppList){
                     int uid = application.getUid();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     application.updatePrevious(bytes);
@@ -155,13 +175,13 @@ public class HomeActivity extends Activity {
     @RequiresApi(api = Build.VERSION_CODES.FROYO)
     private void Applicationupdate(ActivityManager manager){
         runningservices=manager.getRunningServices(Integer.MAX_VALUE);
-        if(applications.isEmpty()){
+        if(mAppList.isEmpty()){
             for(RunningServiceInfo runningservice : runningservices){
                 int uid = runningservice.uid;
                 String name=runningservice.service.getPackageName();
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                 Application newapplication= new Application(name,uid,bytes);
-                applications.add(newapplication);
+                mAppList.add(newapplication);
             }
         }
         else{
@@ -169,7 +189,7 @@ public class HomeActivity extends Activity {
 
                 boolean duplicate = false;
                 int uid = runningservice.uid;
-                for(Application application: applications){
+                for(Application application: mAppList){
                     if(uid== application.getUid()){
                         duplicate= true;
                         break;
@@ -180,7 +200,7 @@ public class HomeActivity extends Activity {
                     String name=runningservice.service.getPackageName();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     Application newapplication= new Application(name,uid,bytes);
-                    applications.add(newapplication);
+                    mAppList.add(newapplication);
                 }
 
 
@@ -190,7 +210,7 @@ public class HomeActivity extends Activity {
     //Determines the application that is using the most data.
     private Application HighestUsingApplication(){
         Application highest= null;
-        for(Application application: applications){
+        for(Application application: mAppList){
             if(highest==null)
                 highest=application;
             else{

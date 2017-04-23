@@ -1,6 +1,418 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+        "outputFile": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 118,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 118,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 107,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 107,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 122,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 122,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 107,
+                    "endOffset": 508
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 107,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 513,
+                    "endColumn": 116,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 116,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 87,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 87,
+                        "endOffset": 713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 105,
+                    "endOffset": 819
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 105,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 824,
+                    "endColumn": 120,
+                    "endOffset": 940
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 120,
+                        "endOffset": 940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 945,
+                    "endColumn": 78,
+                    "endOffset": 1019
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 945,
+                        "endColumn": 78,
+                        "endOffset": 1019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1024,
+                    "endColumn": 77,
+                    "endOffset": 1097
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1024,
+                        "endColumn": 77,
+                        "endOffset": 1097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1102,
+                    "endColumn": 83,
+                    "endOffset": 1181
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1102,
+                        "endColumn": 83,
+                        "endOffset": 1181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1186,
+                    "endColumn": 108,
+                    "endOffset": 1290
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1186,
+                        "endColumn": 108,
+                        "endOffset": 1290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1295,
+                    "endColumn": 110,
+                    "endOffset": 1401
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1295,
+                        "endColumn": 110,
+                        "endOffset": 1401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1406,
+                    "endColumn": 100,
+                    "endOffset": 1502
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1406,
+                        "endColumn": 100,
+                        "endOffset": 1502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1507,
+                    "endColumn": 109,
+                    "endOffset": 1612
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1507,
+                        "endColumn": 109,
+                        "endOffset": 1612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1617,
+                    "endColumn": 116,
+                    "endOffset": 1729
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1617,
+                        "endColumn": 116,
+                        "endOffset": 1729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1734,
+                    "endColumn": 107,
+                    "endOffset": 1837
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1734,
+                        "endColumn": 107,
+                        "endOffset": 1837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1842,
+                    "endColumn": 122,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1842,
+                        "endColumn": 122,
+                        "endOffset": 1960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1965,
+                    "endColumn": 101,
+                    "endOffset": 2062
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1965,
+                        "endColumn": 101,
+                        "endOffset": 2062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2067,
+                    "endColumn": 83,
+                    "endOffset": 2146
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2067,
+                        "endColumn": 83,
+                        "endOffset": 2146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2151,
+                    "endColumn": 100,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2151,
+                        "endColumn": 100,
+                        "endOffset": 2247
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+=======
+        "outputFile": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
         "map": [
             {
                 "to": {
@@ -11,7 +423,15 @@
                     "endOffset": 219
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +450,15 @@
                     "endOffset": 327
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +477,15 @@
                     "endOffset": 450
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +504,15 @@
                     "endOffset": 558
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +531,15 @@
                     "endOffset": 675
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +558,15 @@
                     "endOffset": 763
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +585,15 @@
                     "endOffset": 869
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +612,15 @@
                     "endOffset": 990
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +639,15 @@
                     "endOffset": 1069
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +666,15 @@
                     "endOffset": 1147
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +693,15 @@
                     "endOffset": 1231
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +720,15 @@
                     "endOffset": 1340
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +747,15 @@
                     "endOffset": 1451
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +774,15 @@
                     "endOffset": 1552
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +801,15 @@
                     "endOffset": 1662
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +828,15 @@
                     "endOffset": 1779
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +855,15 @@
                     "endOffset": 1887
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +882,15 @@
                     "endOffset": 2010
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +909,15 @@
                     "endOffset": 2112
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1626,7 +2190,15 @@
                     "endOffset": 10034
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1930,7 +2502,15 @@
                     "endOffset": 11615
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-tl\\values-tl.xml",
+=======
+<<<<<<< HEAD
+                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-tl/values-tl.xml",
+=======
+                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-tl\\values-tl.xml",
+>>>>>>> ServicesPrototype
+>>>>>>> origin/UpdatedAppList
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
