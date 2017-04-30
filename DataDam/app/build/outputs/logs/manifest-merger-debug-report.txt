@@ -23,16 +23,16 @@ ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest
 		ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:6:22-76
 application
 ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:9:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /home/jackson/.android/build-cache/a53fadb1815366bf2a7153f7769fea2003d3a3fd/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jackson/.android/build-cache/6dad223dc38855cedb51b6ef2b85a1fc1995f44a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jackson/.android/build-cache/f2ef7639aa01ef5c8d52dc54dbc88c13f821201f/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jackson/.android/build-cache/7b3cfc0fae58ecf7073df142e410ac33fc793989/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jackson/.android/build-cache/84f19f74452adfbd6cac7b35f089d76414a55374/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jackson/.android/build-cache/a18b56c9a1390f8f21b0eb1bda9ed872e45af83f/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/jackson/.android/build-cache/c489ffbf80f5ce2e500c83b0b6878b42539900a2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/jackson/.android/build-cache/170ecd119d7146239492f20fd71f376c5a23f295/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/jackson/.android/build-cache/5241ae910158555fcb7e8a14ff708a806f18ea5f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/jackson/.android/build-cache/5899b39ac8e8da5b4baf51d7d8ceb3ca546ecbfc/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jackson/.android/build-cache/1d3a31f7ad63c225a05d95c8b9994201bddb18f4/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jackson/.android/build-cache/85bac7d8ce1c1f604e570ddd17999c85ba644762/output/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/jackson/.android/build-cache/bf17563868dda5d55e17d20695c8590b56f5c467/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jackson/.android/build-cache/f24764dc50013ab9ee60000a4aa98b8d678b118f/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/jackson/.android/build-cache/5fb2ecfaef8dfe56daf11e38cd950b40f38b6ac3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/jackson/.android/build-cache/23211cd2ad2288a9b3c8860201a522100bdcb709/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/jackson/.android/build-cache/0a9fc28d051bdeab10e9a1ba26f8f8ed7d5ce255/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
@@ -63,20 +63,20 @@ ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest
 		ADDED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:27:19-47
 uses-sdk
 INJECTED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.2.0] /home/jackson/.android/build-cache/a53fadb1815366bf2a7153f7769fea2003d3a3fd/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jackson/.android/build-cache/6dad223dc38855cedb51b6ef2b85a1fc1995f44a/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jackson/.android/build-cache/f2ef7639aa01ef5c8d52dc54dbc88c13f821201f/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jackson/.android/build-cache/7b3cfc0fae58ecf7073df142e410ac33fc793989/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jackson/.android/build-cache/84f19f74452adfbd6cac7b35f089d76414a55374/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jackson/.android/build-cache/a18b56c9a1390f8f21b0eb1bda9ed872e45af83f/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] /home/jackson/.android/build-cache/c489ffbf80f5ce2e500c83b0b6878b42539900a2/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/jackson/.android/build-cache/170ecd119d7146239492f20fd71f376c5a23f295/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/jackson/.android/build-cache/5241ae910158555fcb7e8a14ff708a806f18ea5f/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/jackson/.android/build-cache/5899b39ac8e8da5b4baf51d7d8ceb3ca546ecbfc/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jackson/.android/build-cache/1d3a31f7ad63c225a05d95c8b9994201bddb18f4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jackson/.android/build-cache/85bac7d8ce1c1f604e570ddd17999c85ba644762/output/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/jackson/.android/build-cache/bf17563868dda5d55e17d20695c8590b56f5c467/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/jackson/.android/build-cache/273894f0b05889618148478acda445974c452b8d/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jackson/.android/build-cache/f24764dc50013ab9ee60000a4aa98b8d678b118f/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /home/jackson/.android/build-cache/5fb2ecfaef8dfe56daf11e38cd950b40f38b6ac3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/jackson/.android/build-cache/076e8888e501221918ed186a483928e2fc8a52e3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/jackson/.android/build-cache/23211cd2ad2288a9b3c8860201a522100bdcb709/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/jackson/.android/build-cache/0a9fc28d051bdeab10e9a1ba26f8f8ed7d5ce255/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.jaredrummler:android-processes:1.0.9] /home/jackson/.android/build-cache/3e09dd38311b0aae25e9549e174f711b678ddcd7/output/AndroidManifest.xml:6:5-8:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jackson/DataDam-production/DataDam/app/src/main/AndroidManifest.xml

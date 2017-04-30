@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 
 import android.app.Activity;
@@ -14,6 +15,7 @@ import android.os.Handler;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -29,6 +31,8 @@ import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.LineData;
 import com.jaredrummler.android.processes.AndroidProcesses;
+import android.app.ActivityManager.RunningAppProcessInfo;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -266,7 +270,8 @@ public class HomeActivity extends Activity {
                 int uid = runningservice.uid;
                 String name=runningservice.service.getPackageName();
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                Application newapplication= new Application(name,uid,bytes);
+                Application newapplication= new Application(name.replaceAll("com", "").replaceAll("android","").replace("."," ").replaceAll("sec","")
+                        .replaceAll("ims","").replaceAll("ant","").replaceAll("org",""),uid,bytes);
                 mAppList.add(newapplication);
             }
         }
@@ -284,16 +289,22 @@ public class HomeActivity extends Activity {
 
                 }
                 if(!duplicate){
-                    String name=runningservice.service.getPackageName();
-                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    Application newapplication= new Application(name,uid,bytes);
-                    mAppList.add(newapplication);
-                }
 
+                    String name= runningservice.service.getPackageName();
+                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                        Application newapplication = new Application(name, uid, bytes);
+                        mAppList.add(newapplication);
+                }
 
             }
         }
     }
+
+
+
+
+
+
     //Determines the application that is using the most data.
     private Application HighestUsingApplication(){
         Application highest= null;
