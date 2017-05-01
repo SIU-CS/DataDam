@@ -66,7 +66,9 @@ ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\mai
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:34:19-53
 activity#com.example.jackson.datadam.AddDataLimit
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:9-59
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:9-107
+	android:theme
+		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:48-94
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:19-47
 uses-sdk

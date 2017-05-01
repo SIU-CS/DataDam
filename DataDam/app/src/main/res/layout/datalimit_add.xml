@@ -25,8 +25,10 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:id="@+id/NameText"
+        android:textColor="#000"
         android:layout_weight="8.5"
-        android:background="@drawable/edittextborder"/>
+        android:background="@drawable/edittextborder"/>/>
+
 </LinearLayout>
 
     <LinearLayout
@@ -51,7 +53,8 @@
             android:inputType="number"
             android:id="@+id/Bytes"
             android:layout_weight="8.5"
-            android:background="@drawable/edittextborder"/>
+            android:textColor="#000"
+            android:background="@drawable/edittextborder"/>/>
     </LinearLayout>
 <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +70,7 @@
         android:layout_weight="1"/>
 
     <Button
-        android:text="Button"
+        android:text="Cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/Cancel"

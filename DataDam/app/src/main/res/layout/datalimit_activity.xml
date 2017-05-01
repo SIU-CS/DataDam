@@ -7,7 +7,7 @@
     <TextView
         android:text="Data Limits"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#000000"
         android:textStyle="bold"
         android:layout_width="fill_parent"
@@ -24,7 +24,7 @@
         android:layout_width="0px"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:id="@+id/Add" />
+        android:id="@+id/Add"/>
 
         <Button
             android:text="Home"
@@ -33,5 +33,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/Home" />
     </LinearLayout>
+
+    <TextView
+        android:text="DataName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DataName" />
 
 </LinearLayout>
