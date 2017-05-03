@@ -19,16 +19,16 @@ ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/mai
 		ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:7:22-64
 application
 ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:10:5-31:19
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/.android/build-cache/3801b4ebe1ad67383bc5dac4f0a219434a8c59e1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/utsav/.android/build-cache/ce2c02ec49b3a3772bb4c1d5ecaf8df4a02fa3de/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/utsav/.android/build-cache/a893501944d810dc77230f2fb0b2616390a02e48/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/utsav/.android/build-cache/5f5691e96a94582aea5912640eab66adc9264a7e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/utsav/.android/build-cache/6033998c04a672d52738dd1aa51f5af01d9d264e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/utsav/.android/build-cache/e50fd8c65786c5142b7b0039ea1ecd29a6d94153/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/utsav/.android/build-cache/637e04c4b7edd113bdce4540eb18e2858ce4625c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/utsav/.android/build-cache/de9c379d7bf6f3cb17e7b2b4e2e7f1a001643443/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/utsav/.android/build-cache/0fd1970b9ae340ac5d8c92512a916c4d447e1241/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/utsav/.android/build-cache/63e63c086bbf924493230bb089ef4c1df808f645/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -59,18 +59,18 @@ ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/mai
 		ADDED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml:29:19-47
 uses-sdk
 INJECTED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/.android/build-cache/3801b4ebe1ad67383bc5dac4f0a219434a8c59e1/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] /home/utsav/.android/build-cache/ce2c02ec49b3a3772bb4c1d5ecaf8df4a02fa3de/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/utsav/.android/build-cache/a893501944d810dc77230f2fb0b2616390a02e48/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/utsav/.android/build-cache/5f5691e96a94582aea5912640eab66adc9264a7e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/utsav/.android/build-cache/6033998c04a672d52738dd1aa51f5af01d9d264e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/utsav/.android/build-cache/e50fd8c65786c5142b7b0039ea1ecd29a6d94153/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/utsav/.android/build-cache/637e04c4b7edd113bdce4540eb18e2858ce4625c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/utsav/.android/build-cache/de9c379d7bf6f3cb17e7b2b4e2e7f1a001643443/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] /home/utsav/.android/build-cache/0fd1970b9ae340ac5d8c92512a916c4d447e1241/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/utsav/.android/build-cache/63e63c086bbf924493230bb089ef4c1df808f645/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/utsav/.android/build-cache/3801b4ebe1ad67383bc5dac4f0a219434a8c59e1/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml
 		INJECTED from /home/utsav/Desktop/Data_Dam 2/DataDam-production/DataDam/app/src/main/AndroidManifest.xml
