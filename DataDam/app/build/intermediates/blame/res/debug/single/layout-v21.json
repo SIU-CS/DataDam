@@ -1,56 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "C:\\Users\\Brandt\\.android\\build-cache\\bfd6543ad5bba0d8336eaf6feb55dc6c1ec832d9\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
-=======
-<<<<<<< HEAD
-        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/layout-v21/notification_action.xml"
-=======
-        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\Seth\\.android\\build-cache\\8ba2e97dde41bd9877070fb0b51d14480f3169b7\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     }
 ]

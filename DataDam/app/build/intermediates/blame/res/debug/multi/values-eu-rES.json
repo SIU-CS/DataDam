@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu-rES\\values-eu-rES.xml",
+        "outputFile": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu-rES\\values-eu-rES.xml",
         "map": [
             {
                 "to": {
@@ -11,15 +11,7 @@
                     "endOffset": 159
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -38,15 +30,7 @@
                     "endOffset": 267
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -65,15 +49,7 @@
                     "endOffset": 390
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -92,15 +68,7 @@
                     "endOffset": 488
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -119,15 +87,7 @@
                     "endOffset": 598
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -146,15 +106,7 @@
                     "endOffset": 684
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -173,15 +125,7 @@
                     "endOffset": 790
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -200,15 +144,7 @@
                     "endOffset": 914
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -227,15 +163,7 @@
                     "endOffset": 1001
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -254,15 +182,7 @@
                     "endOffset": 1085
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -281,15 +201,7 @@
                     "endOffset": 1167
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -308,15 +220,7 @@
                     "endOffset": 1276
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -335,15 +239,7 @@
                     "endOffset": 1386
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -362,15 +258,7 @@
                     "endOffset": 1485
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -389,15 +277,7 @@
                     "endOffset": 1594
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -416,15 +296,7 @@
                     "endOffset": 1707
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -443,15 +315,7 @@
                     "endOffset": 1818
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -470,15 +334,7 @@
                     "endOffset": 1955
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -497,15 +353,7 @@
                     "endOffset": 2054
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -524,15 +372,7 @@
                     "endOffset": 2156
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -551,7 +391,7 @@
                     "endOffset": 2252
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -570,7 +410,7 @@
                     "endOffset": 2338
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -589,7 +429,7 @@
                     "endOffset": 2436
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -608,7 +448,7 @@
                     "endOffset": 2541
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -627,7 +467,7 @@
                     "endOffset": 2636
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -646,7 +486,7 @@
                     "endOffset": 2731
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -665,7 +505,7 @@
                     "endOffset": 2827
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -684,7 +524,7 @@
                     "endOffset": 2920
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -703,7 +543,7 @@
                     "endOffset": 3032
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -722,7 +562,7 @@
                     "endOffset": 3156
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -741,7 +581,7 @@
                     "endOffset": 3242
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -760,7 +600,7 @@
                     "endOffset": 3332
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -779,7 +619,7 @@
                     "endOffset": 3425
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -798,7 +638,7 @@
                     "endOffset": 3512
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -817,7 +657,7 @@
                     "endOffset": 3606
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -836,419 +676,7 @@
                     "endOffset": 3707
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-eu-rES\\values-eu-rES.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2141,
-                        "endColumn": 100,
-                        "endOffset": 2237
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu-rES/values-eu-rES.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 108,
-                    "endOffset": 159
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 108,
-                        "endOffset": 159
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 164,
-                    "endColumn": 107,
-                    "endOffset": 267
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 164,
-                        "endColumn": 107,
-                        "endOffset": 267
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 272,
-                    "endColumn": 122,
-                    "endOffset": 390
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 272,
-                        "endColumn": 122,
-                        "endOffset": 390
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 395,
-                    "endColumn": 97,
-                    "endOffset": 488
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 395,
-                        "endColumn": 97,
-                        "endOffset": 488
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 493,
-                    "endColumn": 109,
-                    "endOffset": 598
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 493,
-                        "endColumn": 109,
-                        "endOffset": 598
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 603,
-                    "endColumn": 85,
-                    "endOffset": 684
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 603,
-                        "endColumn": 85,
-                        "endOffset": 684
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 689,
-                    "endColumn": 105,
-                    "endOffset": 790
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 689,
-                        "endColumn": 105,
-                        "endOffset": 790
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 795,
-                    "endColumn": 123,
-                    "endOffset": 914
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 795,
-                        "endColumn": 123,
-                        "endOffset": 914
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 919,
-                    "endColumn": 86,
-                    "endOffset": 1001
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 919,
-                        "endColumn": 86,
-                        "endOffset": 1001
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1006,
-                    "endColumn": 83,
-                    "endOffset": 1085
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1006,
-                        "endColumn": 83,
-                        "endOffset": 1085
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1090,
-                    "endColumn": 81,
-                    "endOffset": 1167
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1090,
-                        "endColumn": 81,
-                        "endOffset": 1167
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1172,
-                    "endColumn": 108,
-                    "endOffset": 1276
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1172,
-                        "endColumn": 108,
-                        "endOffset": 1276
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1281,
-                    "endColumn": 109,
-                    "endOffset": 1386
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1281,
-                        "endColumn": 109,
-                        "endOffset": 1386
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1391,
-                    "endColumn": 98,
-                    "endOffset": 1485
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1391,
-                        "endColumn": 98,
-                        "endOffset": 1485
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1490,
-                    "endColumn": 108,
-                    "endOffset": 1594
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1490,
-                        "endColumn": 108,
-                        "endOffset": 1594
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1599,
-                    "endColumn": 112,
-                    "endOffset": 1707
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1599,
-                        "endColumn": 112,
-                        "endOffset": 1707
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1712,
-                    "endColumn": 110,
-                    "endOffset": 1818
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1712,
-                        "endColumn": 110,
-                        "endOffset": 1818
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1823,
-                    "endColumn": 136,
-                    "endOffset": 1955
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1823,
-                        "endColumn": 136,
-                        "endOffset": 1955
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1960,
-                    "endColumn": 98,
-                    "endOffset": 2054
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1960,
-                        "endColumn": 98,
-                        "endOffset": 2054
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2059,
-                    "endColumn": 81,
-                    "endOffset": 2136
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2059,
-                        "endColumn": 81,
-                        "endOffset": 2136
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2141,
-                    "endColumn": 100,
-                    "endOffset": 2237
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-eu-rES/values-eu-rES.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-eu-rES\\values-eu-rES.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-eu-rES\\values-eu-rES.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

@@ -12,57 +12,50 @@ import java.util.List;
 /**
  * Created by jackson on 3/29/17.
  */
-class Application  {
-
-
+class Application{
     private String name;
     private int uid;
     private long previousbytes;
-    private long bytes = 0;
+    private long bytes=0;
     public Application next;
 
-
-
-
-    public Application(String name, int uid, long previousbytes) {
-        this.name = name;
-        this.uid = uid;
-        this.previousbytes = previousbytes;
+    public Application(String name, int uid, long previousbytes, long bytes){
+        this.name=name;
+        this.uid=uid;
+        this.previousbytes=previousbytes;
+        this.bytes= bytes;
     }
-
-    public void addBytes(long newbytes) {
-        long bytesused = newbytes - previousbytes;
-        bytes = bytesused + bytes;
-        previousbytes = newbytes;
+    public Application(String name, int uid, long previousbytes){
+        this.name=name;
+        this.uid=uid;
+        this.previousbytes=previousbytes;
+        bytes= previousbytes;
     }
-
-    public void updatePrevious(long bytes) {
-        previousbytes = bytes;
+    //Adds bytes from current run cycle to the total number of bytes used.
+    //Updates previousbytes with the parameter to create a new comparison flag.
+    public void addBytes(long newbytes){
+        long bytesused= newbytes-previousbytes;
+        bytes= bytesused + bytes;
+        previousbytes= newbytes;
     }
-
-    public int getUid() {
+    //Updates previousbytes with new flag.
+    //Only used when application is online
+    public void updatePrevious(long bytes){
+        previousbytes=bytes;
+    }
+    public int getUid(){
         return uid;
     }
-
-    public long getBytes() {
+    public long getBytes(){
         return bytes;
     }
+    public String getName(){return name;}
 
-    public String getName() {
-        return name;
+    @Override
+    public String toString(){
+        return name+" "+uid+ " "+bytes;
     }
-
-
-    public Application() {
-
-    }
-
-
-
-
-
-    }
-
+}
 
 
 

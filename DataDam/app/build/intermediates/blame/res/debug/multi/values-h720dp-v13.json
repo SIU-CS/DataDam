@@ -1,38 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "outputFile": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
-=======
-<<<<<<< HEAD
-        "outputFile": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 66,
-                    "endOffset": 117
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-h720dp-v13/values-h720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 66,
-                        "endOffset": 117
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
-=======
         "outputFile": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
         "map": [
             {
                 "to": {
@@ -43,15 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-h720dp-v13/values-h720dp-v13.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

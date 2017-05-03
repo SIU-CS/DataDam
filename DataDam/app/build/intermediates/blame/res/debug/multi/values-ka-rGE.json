@@ -1,418 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "outputFile": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-        "outputFile": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 108,
-                    "endOffset": 159
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 108,
-                        "endOffset": 159
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 164,
-                    "endColumn": 107,
-                    "endOffset": 267
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 164,
-                        "endColumn": 107,
-                        "endOffset": 267
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 272,
-                    "endColumn": 122,
-                    "endOffset": 390
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 272,
-                        "endColumn": 122,
-                        "endOffset": 390
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 395,
-                    "endColumn": 103,
-                    "endOffset": 494
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 395,
-                        "endColumn": 103,
-                        "endOffset": 494
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 499,
-                    "endColumn": 110,
-                    "endOffset": 605
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 499,
-                        "endColumn": 110,
-                        "endOffset": 605
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 610,
-                    "endColumn": 87,
-                    "endOffset": 693
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 610,
-                        "endColumn": 87,
-                        "endOffset": 693
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 698,
-                    "endColumn": 104,
-                    "endOffset": 798
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 698,
-                        "endColumn": 104,
-                        "endOffset": 798
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 803,
-                    "endColumn": 112,
-                    "endOffset": 911
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 803,
-                        "endColumn": 112,
-                        "endOffset": 911
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 916,
-                    "endColumn": 83,
-                    "endOffset": 995
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 916,
-                        "endColumn": 83,
-                        "endOffset": 995
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1000,
-                    "endColumn": 81,
-                    "endOffset": 1077
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1000,
-                        "endColumn": 81,
-                        "endOffset": 1077
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1082,
-                    "endColumn": 82,
-                    "endOffset": 1160
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1082,
-                        "endColumn": 82,
-                        "endOffset": 1160
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1165,
-                    "endColumn": 112,
-                    "endOffset": 1273
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1165,
-                        "endColumn": 112,
-                        "endOffset": 1273
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1278,
-                    "endColumn": 106,
-                    "endOffset": 1380
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1278,
-                        "endColumn": 106,
-                        "endOffset": 1380
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1385,
-                    "endColumn": 97,
-                    "endOffset": 1478
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1385,
-                        "endColumn": 97,
-                        "endOffset": 1478
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1483,
-                    "endColumn": 112,
-                    "endOffset": 1591
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1483,
-                        "endColumn": 112,
-                        "endOffset": 1591
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1596,
-                    "endColumn": 103,
-                    "endOffset": 1695
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1596,
-                        "endColumn": 103,
-                        "endOffset": 1695
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1700,
-                    "endColumn": 103,
-                    "endOffset": 1799
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1700,
-                        "endColumn": 103,
-                        "endOffset": 1799
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1804,
-                    "endColumn": 121,
-                    "endOffset": 1921
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1804,
-                        "endColumn": 121,
-                        "endOffset": 1921
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1926,
-                    "endColumn": 97,
-                    "endOffset": 2019
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1926,
-                        "endColumn": 97,
-                        "endOffset": 2019
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2024,
-                    "endColumn": 80,
-                    "endOffset": 2100
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2024,
-                        "endColumn": 80,
-                        "endOffset": 2100
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2105,
-                    "endColumn": 100,
-                    "endOffset": 2201
-                },
-                "from": {
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2105,
-                        "endColumn": 100,
-                        "endOffset": 2201
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml",
-=======
         "outputFile": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
         "map": [
             {
                 "to": {
@@ -423,15 +11,7 @@
                     "endOffset": 159
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -450,15 +30,7 @@
                     "endOffset": 267
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -477,15 +49,7 @@
                     "endOffset": 390
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -504,15 +68,7 @@
                     "endOffset": 494
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -531,15 +87,7 @@
                     "endOffset": 605
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -558,15 +106,7 @@
                     "endOffset": 693
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -585,15 +125,7 @@
                     "endOffset": 798
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -612,15 +144,7 @@
                     "endOffset": 911
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -639,15 +163,7 @@
                     "endOffset": 995
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -666,15 +182,7 @@
                     "endOffset": 1077
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -693,15 +201,7 @@
                     "endOffset": 1160
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -720,15 +220,7 @@
                     "endOffset": 1273
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -747,15 +239,7 @@
                     "endOffset": 1380
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -774,15 +258,7 @@
                     "endOffset": 1478
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -801,15 +277,7 @@
                     "endOffset": 1591
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -828,15 +296,7 @@
                     "endOffset": 1695
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -855,15 +315,7 @@
                     "endOffset": 1799
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -882,15 +334,7 @@
                     "endOffset": 1921
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -909,15 +353,7 @@
                     "endOffset": 2019
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -936,15 +372,7 @@
                     "endOffset": 2127
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -963,7 +391,7 @@
                     "endOffset": 2242
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -982,7 +410,7 @@
                     "endOffset": 2330
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1001,7 +429,7 @@
                     "endOffset": 2429
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1020,7 +448,7 @@
                     "endOffset": 2546
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1039,7 +467,7 @@
                     "endOffset": 2644
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1058,7 +486,7 @@
                     "endOffset": 2739
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1077,15 +505,7 @@
                     "endOffset": 2840
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
-=======
-<<<<<<< HEAD
-                    "file": "/home/jackson/.android/build-cache/6f4cff3449a4e23e9e89ab575bdbea4f5fd0b2f9/output/res/values-ka-rGE/values-ka-rGE.xml",
-=======
-                    "file": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1104,7 +524,7 @@
                     "endOffset": 2931
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1123,7 +543,7 @@
                     "endOffset": 3054
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1142,7 +562,7 @@
                     "endOffset": 3166
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1161,7 +581,7 @@
                     "endOffset": 3250
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1180,7 +600,7 @@
                     "endOffset": 3333
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1199,7 +619,7 @@
                     "endOffset": 3432
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1218,7 +638,7 @@
                     "endOffset": 3519
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1237,7 +657,7 @@
                     "endOffset": 3619
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\3054b96b1d01d31c52ed63797281cceaae170ab1\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\23d1daa873ec90803a4b034d0d4c3793a139f542\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1256,7 +676,7 @@
                     "endOffset": 3720
                 },
                 "from": {
-                    "file": "C:\\Users\\Brandt\\.android\\build-cache\\c588762a5bfcfedc6ee769d2e89df215fffb62f9\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "file": "C:\\Users\\Seth\\.android\\build-cache\\1b40386444157a7a51229fc3fc82b0928e78baa0\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

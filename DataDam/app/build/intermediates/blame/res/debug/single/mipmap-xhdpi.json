@@ -1,20 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Brandt\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-=======
-<<<<<<< HEAD
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/jackson/AndroidStudioProjects/DataDam/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/jackson/DataDam-production/DataDam/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-=======
         "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
->>>>>>> ServicesPrototype
->>>>>>> origin/UpdatedAppList
     }
 ]

@@ -1,13 +1,10 @@
 package com.example.jackson.datadam;
-
-<<<<<<< HEAD
 import android.graphics.Color;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
-=======
->>>>>>> origin/UpdatedAppList
+
 import android.os.Bundle;
 
 
@@ -15,23 +12,37 @@ import java.util.ArrayList;
 
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.app.AlertDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
 import android.net.TrafficStats;
 import android.os.Handler;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Button;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.net.NetworkInfo;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.net.ConnectivityManager;
 
 import com.jaredrummler.android.processes.AndroidProcesses;
 
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
+import java.io.*;
+import java.util.Scanner;
+
+import 	android.app.ListActivity;
 
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
@@ -42,8 +53,14 @@ public class HomeActivity extends Activity {
 
     ConnectivityManager connectMgn;
 
+    FileInputStream inputStream;
+    FileOutputStream outputStream;
+    String storage= "DataDamStorage";
+    String Limits= "DataDamLimits";
+
     List<ActivityManager.RunningServiceInfo> runningservices;
     List<Application> mAppList = new ArrayList<Application>();
+    List<DataLimit> DataLimits= new ArrayList<DataLimit>();
 
 //    public List<ActivityManager.RunningAppProcessInfo> processes = AndroidProcesses.getRunningAppProcessInfo(getApplication());
 
@@ -73,14 +90,11 @@ public class HomeActivity extends Activity {
     private TextView HighestName;
     private TextView HighestValue;
 
-<<<<<<< HEAD
-    @RequiresApi(api = Build.VERSION_CODES.FROYO)
-=======
     public List<Application> getmAppList(){
         return mAppList;
     }
 
->>>>>>> origin/UpdatedAppList
+
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
@@ -96,6 +110,60 @@ public class HomeActivity extends Activity {
         HighestValue= (TextView) findViewById(R.id.HV);
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        final Button DataLimits= (Button) findViewById(R.id.DataLimits);
+        final Button Graph= (Button) findViewById(R.id.Graph);
+        final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
+        final Intent GraphIntent = new Intent(HomeActivity.this,GraphActivity.class);
+        //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
+        try {
+            outputStream=openFileOutput(storage, Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
+
+        }
+        try {
+            outputStream=openFileOutput(Limits,Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
+
+        }
+
+        //Reads from storage file then populates the rx, tx, and applications with data from the scanner.
+        try{
+            inputStream=openFileInput(storage);
+            Scanner scaninput= new Scanner(inputStream);
+            //Scan once for the totalbytes value
+            rxBytes= Long.parseLong(scaninput.next());
+            txBytes= Long.parseLong(scaninput.next());
+            //
+            while(scaninput.hasNext()){
+                int uid = scaninput.nextInt();
+                String name=scaninput.next();
+                long previousbytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+                long bytes= scaninput.nextLong()+previousbytes;
+                Application newapplication= new Application(name,uid,previousbytes,bytes);
+                mAppList.add(newapplication);
+            }
+            scaninput.close();
+            inputStream.close();
+        }catch(Exception e){
+
+        }
+
+        //Button listener for DataLimits, starts the DataLimits activity on click.
+        DataLimits.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(DataIntent);
+                //moveTaskToBack(true);
+            }
+        });
+
+        Graph.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(GraphIntent);
+                //moveTaskToBack(true);
+            }
+        });
         Applicationupdate(manager);
 
         if (PreviousRX== TrafficStats.UNSUPPORTED || PreviousTX == TrafficStats.UNSUPPORTED) {

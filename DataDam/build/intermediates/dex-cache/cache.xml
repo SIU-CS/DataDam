@@ -3,1002 +3,606 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\fd1397f2b17cabc9fb85fda266ac6ce2268280fc\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8a1175921047edad16a2a21825677f671eb97b29\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\b24eb91d00c7bcdb846a097b969e57dbd1e88002\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1f8548a62519bad738698ffb0ae955581081e5e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\1b8fde054908de0ac5c7910657a5e8c963c19c3b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_bafec7fd2a9a7eda15a33a5fdedc18542634f952.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\649d921b217eb6380e43381622eab84f8b726b9c\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\9e11a19d47fc7df29a931491a01d42f2d23b3069\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_417777cf35333b4eb6f076589f16c80a7ce1fa95.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\7133c0ca787457d11ec697184db4f5334330c244\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_f9d9da984a11e1aae2488f5bd5c5f320e6999b46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\fd1397f2b17cabc9fb85fda266ac6ce2268280fc\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_8a1175921047edad16a2a21825677f671eb97b29.jar" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f5b78cfda4610f67f9c24b71e8930ca0b735c31\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\649d921b217eb6380e43381622eab84f8b726b9c\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\76f5b5d388f6803129b1947ac10a4ea433e25d01\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_417777cf35333b4eb6f076589f16c80a7ce1fa95\classes.dex" />
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24fc20e33b2101f3b6c97619b0181d5392a78e31\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\7edc4fbea2b226546902887963efe3767e10e2a9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6659f005f3835930c32aad6a9caa441d70f7d3d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\291584666beaf3847fc0cadd1de1fd3d3a5e3e9a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d67670a8548c4fb463042785fb135d26275dd1a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\3eda22ce9953f2bb8e4eac5141d937ceb1ddc667\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c47a75269c18b13d88a469d4810d1477500372d5\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\b24eb91d00c7bcdb846a097b969e57dbd1e88002\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_d1f8548a62519bad738698ffb0ae955581081e5e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\7133c0ca787457d11ec697184db4f5334330c244\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9d9da984a11e1aae2488f5bd5c5f320e6999b46\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\3eda22ce9953f2bb8e4eac5141d937ceb1ddc667\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_c47a75269c18b13d88a469d4810d1477500372d5.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\c425bf2ae2d8034ec6e9079cfa9b105b58ca1682\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aff5e013dca2b8f6d6494db234ec43af49616b26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\196502f7b0b3fa02435eb0099685c43220af71f6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09803587d8a93d6cb93cac16ee1aacc346abac37\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\e47f3d33ee16922c0ec87591a39afc773e20b7f6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_9373c106972744592b7f021ae37ba22d0cbf3472.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_157ce9ed42c419f334ff0cb5da726a72d00bb202\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\196502f7b0b3fa02435eb0099685c43220af71f6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_09803587d8a93d6cb93cac16ee1aacc346abac37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\7edc4fbea2b226546902887963efe3767e10e2a9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_6659f005f3835930c32aad6a9caa441d70f7d3d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\c425bf2ae2d8034ec6e9079cfa9b105b58ca1682\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_aff5e013dca2b8f6d6494db234ec43af49616b26.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\8e95931de331e53448c2b59a91501a3fc9ebb3e0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_679fd9c891731655422718dad3c940002863a7d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\bfd6543ad5bba0d8336eaf6feb55dc6c1ec832d9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_fded581fa3294ff945983f966a0b6584210d174e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\bfd6543ad5bba0d8336eaf6feb55dc6c1ec832d9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fded581fa3294ff945983f966a0b6584210d174e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\56ad76b9b1866f943711f1b0f69f8b1277cbb71a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_18e016f3ba77a564c3a6c2c3c435833915828d9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\3054b96b1d01d31c52ed63797281cceaae170ab1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5bf625b43fd3eeb5417a56ed75a95a8d7e4e66fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\78ffff4e3ae90e54444c594e337d9b407e856799\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d349a40e5a48b81ec4fccf485a608e9f39dc0632\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\8e95931de331e53448c2b59a91501a3fc9ebb3e0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_679fd9c891731655422718dad3c940002863a7d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\5d4f184aac362f0ca11e6e59662890f6b1f7990a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a60234de841439f6354ac6cb513ae8fb8259e3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\3054b96b1d01d31c52ed63797281cceaae170ab1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_5bf625b43fd3eeb5417a56ed75a95a8d7e4e66fa.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\243a07eb85e79e7563bd5fcf9cd5c4e761f66f78\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea8474a48fd41c47dc80d056f7e5b29d604d1efc\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\3054b96b1d01d31c52ed63797281cceaae170ab1\output\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_810208a3e56e9c6de9d1cd7e0eab9500c69e6c70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\3c80a7b7469736162ce853414990dde3a165faa0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_ea62b08f67a2fe1935fc412c2673f163bf4e11ed.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\3054b96b1d01d31c52ed63797281cceaae170ab1\output\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_810208a3e56e9c6de9d1cd7e0eab9500c69e6c70\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\97dfac418cac604d6be9393a95859a40f9617d0c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_559d208e5a8405272ddc23af80a4c23defb2680a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\26c3b09607e6cc26826f9033b5d59980fc9e7392\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_f86adedb8c5a253b18c0295153fb90c1686b4aa3.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\7bbdd1279348c292845769f1fd983b6d9a29cb22\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6eba942f345dd0041d28db4d3c8a5c99efd2295b\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\d584495e2df640a5ff106eb4139094e34a3f2061\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_215826c268c6f63331d455e51ddc102567c927da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\7bbdd1279348c292845769f1fd983b6d9a29cb22\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_6eba942f345dd0041d28db4d3c8a5c99efd2295b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\3c80a7b7469736162ce853414990dde3a165faa0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea62b08f67a2fe1935fc412c2673f163bf4e11ed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\443f7095a91803ed8dca0dd14e40b4d4b686fc1e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f85d3da568b1be60edc1c301411ea1fb9c1d9d6b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\26c3b09607e6cc26826f9033b5d59980fc9e7392\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f86adedb8c5a253b18c0295153fb90c1686b4aa3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\46570a2ce774503128dc80803d2b49a86786334f\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\b5b9a9667dade5fdc587143f7ed6072300b6dc49\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f59d41901e02833345a570d165eee9a8c8e7715a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\443f7095a91803ed8dca0dd14e40b4d4b686fc1e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_f85d3da568b1be60edc1c301411ea1fb9c1d9d6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\243a07eb85e79e7563bd5fcf9cd5c4e761f66f78\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_ea8474a48fd41c47dc80d056f7e5b29d604d1efc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\97dfac418cac604d6be9393a95859a40f9617d0c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_559d208e5a8405272ddc23af80a4c23defb2680a.jar" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_568e1db1b35de2addb32aafa48b7d04be1c22e7f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\1dab22a1ac4833f623dfd3189cb9244f5089310d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8701715b79421d150c1d9d2893373a191384a6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\b300cdaefda2cdae0542a5019a4851859eb5acef\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_b39112bd71607140f1a060a9864b20587ff4e89f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\b300cdaefda2cdae0542a5019a4851859eb5acef\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b39112bd71607140f1a060a9864b20587ff4e89f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\d584495e2df640a5ff106eb4139094e34a3f2061\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_215826c268c6f63331d455e51ddc102567c927da\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\1dab22a1ac4833f623dfd3189cb9244f5089310d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_f8701715b79421d150c1d9d2893373a191384a6f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\0e7163353b1bf7edf0972de742a7e5acd07dee20\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_694b24aca01c9a73977e6d84ced7dff1e6982c8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\328293b7bc9f53f87b9b5cc502042916f848cd7f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_c2dc049112085f3d56084865413859e63ddbea86.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\c588762a5bfcfedc6ee769d2e89df215fffb62f9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80d2efbf918f86b0ec1f44f8d5813bd9745d5435\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\0e7163353b1bf7edf0972de742a7e5acd07dee20\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_694b24aca01c9a73977e6d84ced7dff1e6982c8e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\739c8716aff6376ac733dfa4f4d3dc11bee172b6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_408c1868e87975ea6967e34cb6886a9db1a345a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\c588762a5bfcfedc6ee769d2e89df215fffb62f9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_80d2efbf918f86b0ec1f44f8d5813bd9745d5435.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\739c8716aff6376ac733dfa4f4d3dc11bee172b6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_408c1868e87975ea6967e34cb6886a9db1a345a4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\328293b7bc9f53f87b9b5cc502042916f848cd7f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2dc049112085f3d56084865413859e63ddbea86\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\354c0a0aa5e991db000bcd6a196007e3dccb49cf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ed5dcfeabb3a4c27824b8452314c7ff11ea106a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\832ce2802c5e9383545fc9259b78db43b01493b5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_b137e2ed89039a5aae611ef47842a60a90ab77bf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\8c8e15d8f4f2002448ff61af8439b67ca352e61b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_873f2a1d9cb27b3a258dc13d01d6760515ac61de.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\b907617bc940f405146fb7155b6c7d6b072ea182\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1375a38644e7879d4b25e333f01a691a4dac0e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\832ce2802c5e9383545fc9259b78db43b01493b5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b137e2ed89039a5aae611ef47842a60a90ab77bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\8c8e15d8f4f2002448ff61af8439b67ca352e61b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_873f2a1d9cb27b3a258dc13d01d6760515ac61de\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\73f7563344fdf74eff453e4831c8ab0477e14dbc\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_73f4c6225619b79c845e24a22cd6d03d529fe688.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\37ce6665a71823af01d75e777a6daeced03c9761\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_643ebac3ebccfe4c6665bf6e55f1810c021d42f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\0d57d5f96d3a0a00eec8344f2385a275317ee04f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_3bc629238562a96169e72aa96c59b12b78af995f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\f544a24d26dba3eb63d31d83a37367a9c3ae73ec\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2fc657437df26c04699673545d85bc1896d0c42c\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\f544a24d26dba3eb63d31d83a37367a9c3ae73ec\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_2fc657437df26c04699673545d85bc1896d0c42c.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\e654525effb5be0617cfc8606db23eff2cee0d89\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f7f97223392a3fe74140b15b749a3aeb2b0fcdb2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\73f7563344fdf74eff453e4831c8ab0477e14dbc\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73f4c6225619b79c845e24a22cd6d03d529fe688\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\e654525effb5be0617cfc8606db23eff2cee0d89\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_f7f97223392a3fe74140b15b749a3aeb2b0fcdb2.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\0d57d5f96d3a0a00eec8344f2385a275317ee04f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3bc629238562a96169e72aa96c59b12b78af995f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\af1858989922276a5978ea86972cd1e99df5db21\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_dca7f110f824619db7e8be41d0c6b3ef531e6f50.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\af1858989922276a5978ea86972cd1e99df5db21\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dca7f110f824619db7e8be41d0c6b3ef531e6f50\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\9d7202dd306726cd0a794ef7112ca870cfb85d8f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1035464b26e8d1839d4343ad0f054b4a16d6f790\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\6ff153ded8731aeb7a4e9b0188dedbd5dba1f8cd\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\27b63b5d4562b3c9b648661d3b6b1f3d3903a18d\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02612e6b7e1ed766fc12bc7628ed6c79f1fa4c29\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\b907617bc940f405146fb7155b6c7d6b072ea182\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_a1375a38644e7879d4b25e333f01a691a4dac0e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\354c0a0aa5e991db000bcd6a196007e3dccb49cf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_9ed5dcfeabb3a4c27824b8452314c7ff11ea106a.jar" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c239cf1632c7813f16148271e8d52cfaa3007907\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\9b05eb188e7f1e7588d8a4ff209ab22e3f0e34ac\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\0cbf326b384717a5ca21c490f25ed265ea88f639\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7113302c965566b66df46c6ca75ea301576114a5">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab52a68e5b5d78052928569a9df41a58990588ba\classes.dex" />
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7c732d7a483a3cafab552b81cfc35d0c85ef305\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\9d7202dd306726cd0a794ef7112ca870cfb85d8f\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\55786d76e6129fb556d3a05eb87487e9b5225aec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c7ed1a038355cf753ee2590ed9ea36d5571d4b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\896d7b775e5919f16ef233da1683647828960d9c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b2e751c1d5925fe2b6f16574e9bcee613c741157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\e8760e9bab50124e5d49de0eb736328d2982ea43\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_1035464b26e8d1839d4343ad0f054b4a16d6f790.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\f7fd32ea551e45afa42865e6301ed70bb3f11c9e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_58f65b37cc12802a0f986d2136e58b31af2fa5bf.jar" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4fb346c79f64ffdb4b97c706f2147d7dc6225a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\f26c29b4e9c394067e0cedc1e1927225603b3962\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_590d5f1ebb6cbc57cc0fe6d52f0a70a0655fc84e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\dc8d0b1a438f2e5d4b155277386e209cd8711cf3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_1355b8b2925f3fdd64a8208c67003f5099d2d804.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\dc8d0b1a438f2e5d4b155277386e209cd8711cf3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1355b8b2925f3fdd64a8208c67003f5099d2d804\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\f26c29b4e9c394067e0cedc1e1927225603b3962\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_590d5f1ebb6cbc57cc0fe6d52f0a70a0655fc84e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_157ce9ed42c419f334ff0cb5da726a72d00bb202.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\a797baf6de01cca94804043baa317eb44efc434d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_829d81cbd8d1cf5147a33d37b7635c0754f21001\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\75fd64fb74eeee2b2e9696542286b79339ae9885\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a41ebc45e4f0056f9fa8a3e6666f39e0e3d5307a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\e47f3d33ee16922c0ec87591a39afc773e20b7f6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9373c106972744592b7f021ae37ba22d0cbf3472\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\a797baf6de01cca94804043baa317eb44efc434d\output\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_b7f0f346c88600107f05f7ce6fed50a9db9d7524\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\f7fd32ea551e45afa42865e6301ed70bb3f11c9e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58f65b37cc12802a0f986d2136e58b31af2fa5bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\a797baf6de01cca94804043baa317eb44efc434d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_829d81cbd8d1cf5147a33d37b7635c0754f21001.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\75fd64fb74eeee2b2e9696542286b79339ae9885\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_a41ebc45e4f0056f9fa8a3e6666f39e0e3d5307a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_33027a0cc348ccfcdf3d061b76d22d4c1203dc9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\319e40b3d89511688d7d55fc15de14d9424b0d38\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd37676b7a68a199473e4ff6bbf617a797c37ddb\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\a797baf6de01cca94804043baa317eb44efc434d\output\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_b7f0f346c88600107f05f7ce6fed50a9db9d7524.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\319e40b3d89511688d7d55fc15de14d9424b0d38\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_cd37676b7a68a199473e4ff6bbf617a797c37ddb.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\f3a1064b904e7dd2a5d54f113e9c15070dbb86b0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b6c27089ebd4954100f910151cf457147f1f158\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\a5687cb17c42a91eb8686d1b16b8d124d13a1b33\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_8e27aa8adcd8d7fc6dd2f9bd277192908ed7fcc3.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\a5687cb17c42a91eb8686d1b16b8d124d13a1b33\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e27aa8adcd8d7fc6dd2f9bd277192908ed7fcc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Brandt\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_77b01e3ff703ca8f51b7ccde7e31c68ae26e783f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\3d312138a0bca7226185c2403846cc4d63d19821\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\be7f2feee8c2d680159d7655aa32c9ae51bcb59b\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_4cf103a22cbc9e693528606f903fc23ee063a171.jar" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da8d0eda9d0d09379760bdfa46ddf5f0cb8920ca\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\d8e4b4570e48a767324c75cbea04515867b4ce79\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\373222432a3adac4611d70f23aee9922aeb2691c\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04cce76c8e000b4becb95cc797e77ba682550c7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\f3a1064b904e7dd2a5d54f113e9c15070dbb86b0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_0b6c27089ebd4954100f910151cf457147f1f158.jar" />
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9234937e172862de704386f1cf9e7257bf5ce20\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\3d312138a0bca7226185c2403846cc4d63d19821\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4cf103a22cbc9e693528606f903fc23ee063a171\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\73e3c389e8f876ec1ae8dc236e43ed86158dfb95\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_095b4667ad651f11f28b7007f1dd29a888153548.jar" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_98837524f6cc975fb6b5d66914670034ccb48307\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\8f53eb8b48375d22fba2d3a83e07c6493c9d3b08\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\867b56a2831c5f681aad042cc36e31a5c0695bed\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70fe3155aa4ed9471406f9be16e48ce492f3c31d\classes.dex" />
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9fc2cfb80269695a05cfbe261e8b042169f8ba5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\73e3c389e8f876ec1ae8dc236e43ed86158dfb95\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\3bf67b1672caae67aec8d9310f22ed29b35fae81\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_095b4667ad651f11f28b7007f1dd29a888153548\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Brandt\.android\build-cache\8f53eb8b48375d22fba2d3a83e07c6493c9d3b08\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\pre-dexed\debug\classes_70fe3155aa4ed9471406f9be16e48ce492f3c31d.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_c15a81c39543527b1dda9e31442eff2c3bfcc4cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Brandt\.android\build-cache\1b8fde054908de0ac5c7910657a5e8c963c19c3b\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Seth\.android\build-cache\e95cfa73dff176063f1cedf0e2e793778ec60f20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdeee117ea6a47bc159432b5cd947728e954b2b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\6086b4742d194ab3cc77116b599a8d93b50e9bb1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_625c9954e40702e8afc47a90a5f001a71f69a966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\3cbc8ecdb4b276b715b1c5d8442ff25cd6e735c1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_204429dca29dd6baabaf65b98d3365c656c9b57d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\23d1daa873ec90803a4b034d0d4c3793a139f542\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_3766ca762a1e41ea32942271a2ba5dd7e188e797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\54fff6843c28f5ddbd2119946ecba725aca81216\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="C:\Users\Brandt\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bafec7fd2a9a7eda15a33a5fdedc18542634f952\classes.dex" />
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03ac2de15d2a6aa32413fab88708cb9aa92956ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\166df928105c050ac1b41eb46eeb0d50e70dc351\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9f7d0d3a78fa197cf8dc5de3cfb1648119d1bb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\8944239e3557a42fde2481daf3593146bb1f6eab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c0b520c211bf67125d7a46e12a058ae7e53aa4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\dc78092852ba858bec9151cd38aea6b32b091f9b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a1f622edfa55c1647c2e51b1349857bd30de90a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_460077826a6a5f27ada4fa640257fd6646b1dae5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\79813d57f9e73028413df02d483708665ad2f622\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74a96c3dced83fc4fc36cb427272bf5a130de41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\3bf67b1672caae67aec8d9310f22ed29b35fae81\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45ab76e570b38f5ed38cb2d01f789bb5b575bbce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\52217a184f24807ba9cea08918c6f6874e5de42b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae14705712f73316f79dcde3b13e58a22a55ecac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\0a4de5d4f5eeb355bbaf9fe273481adf36ee923b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_011ca9d9206a03b17fa83602067c3d3bd7f3fb7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\f82ef5bf141e3e3f41ce7fd30fa41b48aa85cefd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef3549bee38b1453b2e2a41fa484fb5e56c6264a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\3b7c3374de63f71567fd34f8e2097b6874304fdc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7140df5854c1644150934584759a2d50220973b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\18c783bd07b1857d8e2dd0beea968b2fe5a903a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c34b1ace60e62c13aa7b86c17b8eb105defd0dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\41a764800622edd9c6da23bd00afc9a6b5de83ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e020aee68c0126ee1373973b5ea1bd374c555987\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\59524d52a89863fa6d744b9ed3b98803b9294a7e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b87b640890297670273565ebe5e9de72000f700f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\6ac55f9f171920f7d8ec442149c179e3123e7f36\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_928c700cc3ad9dbf2075be1f99b83344ef990479\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\d25b9df4b6160037aeabd7ea0613bf6f892eba3b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e870b9f964420865941da051c666f6339217002">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f1898502eac7072f82ad1564eec7aa9095720c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\d4a52ae2a9ac8790c58f64c2c53f7e58d525119c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_acc35a4f6c2f8559cc47bd385f98b06286982b00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\8ba2e97dde41bd9877070fb0b51d14480f3169b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84d7e37d09d9ffd4d674b0fec0562a6841740c92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\3ad15ca85ac3ee576839d5617d7042e7add20ab6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8beb6cff37054c74dcfa686bdef13350dcbc1351\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\26e4489b0269e932effd39b5ef1e34296f73917f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41c106bf3cae3c4d1a90b25a07921f6ef0968404\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\1db80b5ce5d4da60a1bbf27e9c32b854a09a2cc6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df5a4db2268ed48aad67dd02723d322ed4c5a17d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\a1454f6023c6e1dfa0dae711222109c9b1068cb4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22eb03305563b3370f9e0a478912c30ae463a049\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\4d728f223b0e10705b995282267bbeb01831e5df\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29427ec65c524507a4695969f0a4d03e85ce25c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\6cc104ee9c9ec7f7167c65ba51e7efad1ead8cbb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7242e83ece5481d68c97cd9779a4f93bd3da0a00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\5c35f54d138c5745b41cee7e6b076670b3e5855c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d17d25dcae14b788ec67dc83922fa78bf7119c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\17bc88fb49c6cd27fca6b7269d3033ba4e82c3d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdac20f568fa45315310b69a12fd293f3136ca22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\265a09eddf58152491fba873a2c453e3f0e17d7c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d64dcdc30d41af6f82994166c895f95d1208e9f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\05afcfd437178e455d90011eaae7a26e65c5c993\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1944a0119d8933268a4d4b5ee4d85b2891f0950\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\99fe26cfc4773f343b5738f07bb2dea23818d1a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9d8dd7ab6a47990e06aa6b45d8e701b1a448360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\23d1daa873ec90803a4b034d0d4c3793a139f542\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38e51115bacfdf4bee0d7eea8b46aa6bd7485d1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\cb60fe3ce319fe4bd8046697d6d66aa4bc3e393c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b18f38bbe08423993054d77788cd0437194ae18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\e2f72f8e65a81a4df25edf4791c51545accab0ff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_185696e1550eb73d6252aeb855a9c07796415221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\b077cb93f70c7afd024fc12b04016899ce98bce0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f07a83811a9c4e5e73a2a4111a13293feba9dec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\4dd4377020d98764e8280aea24da9b789416771d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c247bb8f305b384ab8acc425950fcab9c371825b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\c5a302e86050696225d66891cd6461527838c741\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e42949bd374d36001f63debee664da6fdc6babb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_7ace1e275678267412f1a3fa9c24e0f1e8304818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\937f70ba5c6efc5046f11032af5c5cdb39cf7ced\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d0fb294a36ca2151256c968753edba73a9c6a2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\9ecb29885363fc1386b976e3bbb5460c2d5e1eb7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84d167479fd203a6cc4cfca7879ab066538bbb3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_388294150b66d1bca925f1e5f113848079a43238\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\d69be28447d3d4f1a019153dc574823e31af6806\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdd73dbe91d32572acff868f54200bc99e278bf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\21cc1494a304cde28912eb8df7fefbdc076817ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3d5c31f9e8a597fbf435065d3161a6e676bf560\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\1b40386444157a7a51229fc3fc82b0928e78baa0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1a5ec8a74c067337f2645125a724ad52eec5bef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf82e56dbd0eabe87bb953088a14faa8af6fcbb4">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1ede0a642a8a1c0e5504935c2d96f6c57774fd5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\01b8a9c0cdf81d23cbe50f1ce3359b250f7ceef6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae5f7f566d646a93922461a230e27ae4617efa94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\053d05a8db425bf9c9029329cf1a1854a486528e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e1537fdc6c97179c7f51e544fee4aa1908aa0d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\b99c6edbd579567715c0ada7f7445a5428948dee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b938ecf07a13d83406113a1b10bffb0d304414a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\011e4d7f2955132606124e75f74159078d43fcac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19ba0869a436f936c17a6fc22699c48f0638f9c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\6317d4d404404c703af2aa0e3133bdefe103dd00\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f37938f52cdc2c00b0b36959fdb463b4c4a2819\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\68e305fbfb2db902e3163b715f7ab7a4e6609dcc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef9d483eeb6098fe382f1b2276078a2b112f2e82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Seth\.android\build-cache\2f99f53dd0c18654d72897ad26a1d690b351014f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_beffa1493da1d834153d219b8b5b5022f650527a\classes.dex" />
     </item>
 
 </items>
