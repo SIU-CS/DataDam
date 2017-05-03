@@ -9,13 +9,15 @@
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name="com.example.jackson.datadam.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +25,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.jackson.datadam.HomeActivity" />
+        <activity android:name="com.example.jackson.datadam.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.jackson.datadam.DataLimitsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jackson.datadam.AddDataLimit"
+            android:theme="@style/Theme.AppCompat.Dialog" />
     </application>
 
 </manifest>

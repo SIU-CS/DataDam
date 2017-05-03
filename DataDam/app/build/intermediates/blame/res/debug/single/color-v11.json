@@ -1,10 +1,18 @@
 [
     {
         "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "source": "/home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "source": "/home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/jackson/DataDam-production/DataDam/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]
