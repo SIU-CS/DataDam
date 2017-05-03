@@ -5,15 +5,22 @@ import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.TrafficStats;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+
+
+import android.support.v7.app.ActionBarActivity;
 
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
@@ -209,6 +216,41 @@ public class HomeActivity extends Activity {
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     //Line Chart Code
+
+
+
+
+    ////////////////////////////////////////////////////////////////////GRAPH BUTTON FUNCTIONALITY///////////////
+    public void sendMessage(View view){
+
+        Intent startNewActivity =  new Intent(this, DisplayMessageActivity.class);
+
+        //EditText theEditText = (EditText) findViewById(R.id.edit_message);
+       // String message = theEditText.get
+
+        startActivity(startNewActivity);
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
     private void addEntry(String data_Value) {
 

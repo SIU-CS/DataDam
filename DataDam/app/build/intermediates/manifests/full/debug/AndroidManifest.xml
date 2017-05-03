@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.jackson.datadam.HomeActivity" />
+        <activity android:name="com.example.jackson.datadam.DisplayMessageActivity" />
     </application>
 
 </manifest>
