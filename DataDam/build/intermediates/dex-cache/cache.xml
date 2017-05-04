@@ -2,22 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/jackson/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_f5ce3d46e611c46d5b55879eb89a34299eca3db1.jar" />
+        sha1="d590397406934f54c6585470c4c71481eace2a2f">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1ede0a642a8a1c0e5504935c2d96f6c57774fd5c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/jackson/.android/build-cache/858d50ed3963e4ea11888c5b7c4786575e742f48/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/pre-dexed/debug/classes_1310abd8bce66edfa8cf5d8ab18d0e31a467504e.jar" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_98837524f6cc975fb6b5d66914670034ccb48307\classes.dex" />
     </item>
 
 </items>

@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/jackson/AndroidStudioProjects/DataDam/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/home/jackson/.android/build-cache/a119b7c71edbdfd70ac5bebe1b050b91dd5cad21/output/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "C:\\home\\jackson\\AndroidStudioProjects\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\home\\jackson\\.android\\build-cache\\a119b7c71edbdfd70ac5bebe1b050b91dd5cad21\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Seth\\Documents\\GitHub\\DataDam-production\\DataDam\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Seth\\.android\\build-cache\\ed3db65ceae374bd4346e26d56ff1d5742cb23d6\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

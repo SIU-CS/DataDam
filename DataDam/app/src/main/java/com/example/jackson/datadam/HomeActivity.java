@@ -4,9 +4,12 @@ import android.os.Bundle;
 
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
         import android.content.Intent;
         import android.app.Activity;
+        import android.app.Dialog;
+        import android.content.Intent;
         import android.app.AlertDialog;
         import android.net.TrafficStats;
         import android.os.Handler;
@@ -21,9 +24,16 @@ import java.util.ArrayList;
         import android.app.ActivityManager.RunningServiceInfo;
         import android.net.ConnectivityManager;
 
-        import java.util.List;
-        import java.io.*;
-        import java.util.Scanner;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+import java.io.*;
+import java.util.Scanner;
+
+import 	android.app.ListActivity;
+import android.widget.Toast;
 //Custom application class
 //Used to store the name, id, and data usage of an application on the device.
 
@@ -31,6 +41,10 @@ public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
     private long PreviousRX = 0;
     private long PreviousTX= 0;
+    private Calendar recorder= Calendar.getInstance();
+    private int previoustime=0;
+    private int currenttime= recorder.get(Calendar.SECOND);
+    private int timepast=0;
     private long currentRX, currentTX, rxBytes, txBytes;
     ActivityManager manager;
     ConnectivityManager connectMgn;
@@ -38,8 +52,10 @@ public class HomeActivity extends Activity {
     FileOutputStream outputStream;
     String storage= "DataDamStorage";
     String Limits= "DataDamLimits";
+    String Periods="DataDamPeriods";
     List<ActivityManager.RunningServiceInfo> runningservices;
-
+    List<DataLimit> DataLimits= new ArrayList<DataLimit>();
+    List<TimePeriod> TimePeriods= new ArrayList<TimePeriod>();
     List<Application> mAppList = new ArrayList<Application>();
     private TextView RX;
     private TextView TX;
@@ -77,9 +93,10 @@ public class HomeActivity extends Activity {
         HighestValue = (TextView) findViewById(R.id.HV);
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        final Button DataLimits = (Button) findViewById(R.id.DataLimits);
-        //final ImageButton refresh = (ImageButton) findViewById(R.id.imageButton);
-        final Intent DataIntent = new Intent(HomeActivity.this, DataLimitsActivity.class);
+        final Button DataLimitsButton= (Button) findViewById(R.id.DataLimits);
+        final Button TimeperiodButton= (Button) findViewById(R.id.TimePeriods);
+        final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
+        final Intent PeriodIntent= new Intent(HomeActivity.this,TimePeriodsActivity.class);
         //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
         try {
             outputStream = openFileOutput(storage, Context.MODE_APPEND);
@@ -91,6 +108,12 @@ public class HomeActivity extends Activity {
             outputStream = openFileOutput(Limits, Context.MODE_APPEND);
             outputStream.close();
         } catch (Exception e) {
+
+        }
+        try {
+            outputStream=openFileOutput(Periods,Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
 
         }
 
@@ -115,25 +138,56 @@ public class HomeActivity extends Activity {
         } catch (Exception e) {
 
         }
+        try {
+            inputStream = openFileInput(Limits);
+            Scanner scaninput = new Scanner(inputStream);
+            while (scaninput.hasNext()) {
+                String name = scaninput.next();
+                long bytes = Long.parseLong(scaninput.next());
+                long bytesused = Long.parseLong(scaninput.next());
+                String notification = scaninput.next();
+                DataLimit newdatalimit = new DataLimit(name, bytes, bytesused, notification);
+                DataLimits.add(newdatalimit);
+            }
+            scaninput.close();
+            inputStream.close();
+        } catch (Exception e) {
+
+
+        }
+        try {
+            inputStream = openFileInput(Periods);
+            Scanner scaninput = new Scanner(inputStream);
+            while (scaninput.hasNext()) {
+                String name = scaninput.next();
+                int timeperiod = Integer.parseInt(scaninput.next());
+                int timepast= Integer.parseInt(scaninput.next());
+                long bytesused = Long.parseLong(scaninput.next());
+                String notification = scaninput.next();
+                TimePeriod newtimeperiod = new TimePeriod(name, timeperiod, timepast, bytesused, notification);
+                TimePeriods.add(newtimeperiod);
+            }
+            scaninput.close();
+            inputStream.close();
+        } catch (Exception e) {
+
+
+        }
 
         //Button listener for DataLimits, starts the DataLimits activity on click.
-        DataLimits.setOnClickListener(new View.OnClickListener() {
+        DataLimitsButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(DataIntent);
                 //moveTaskToBack(true);
             }
         });
+        TimeperiodButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(PeriodIntent);
+            }
+        });
 
-        //button to refresh list
-//        refresh.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                for(Application application: mAppList){
-//                    int uid = application.getUid();
-//                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-//                    application.addBytes(bytes);
-//                };
-//            }
-//        });
+
 
         Applicationupdate(manager);
 // Tests to see whether the Data Dam application is compatible with TrafficStats
@@ -170,11 +224,28 @@ public class HomeActivity extends Activity {
                 txBytes= txBytes + currentTX;
                 RX.setText(Long.toString(rxBytes));
                 TX.setText(Long.toString(txBytes));
+            previoustime=currenttime;
+            currenttime=recorder.get(Calendar.SECOND);
+            timepast=currenttime-previoustime;
                 for(Application application: mAppList){
                   int uid = application.getUid();
                     long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                     application.addBytes(bytes);
+                }  for(DataLimit dataLimit:DataLimits){
+
+                dataLimit.addBytes(rxBytes + txBytes);
+                if(dataLimit.isComplete()) {
+                    Toast.makeText(getApplicationContext(), dataLimit.getNotification(), Toast.LENGTH_SHORT).show();
+                    DataLimits.remove(dataLimit);
                 }
+            }
+            for(TimePeriod timePeriod:TimePeriods){
+                timePeriod.addTime(timepast,rxBytes+txBytes);
+                if(timePeriod.isComplete()){
+                    Toast.makeText(getApplicationContext(), timePeriod.getNotification(), Toast.LENGTH_SHORT).show();
+                    TimePeriods.remove(timePeriod);
+                }
+            }
            try {
                 outputStream=openFileOutput(storage, Context.MODE_PRIVATE);
                 PrintWriter pw = new PrintWriter(outputStream);
@@ -188,6 +259,32 @@ public class HomeActivity extends Activity {
                 pw.close();
                 outputStream.close();
             }catch(Exception e){
+
+            }
+            try {
+                outputStream= openFileOutput(Limits, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+                for(DataLimit dataLimit: DataLimits){
+                    if(!dataLimit.isComplete()) {
+                        pw.println(dataLimit.toString());
+                    }
+                }
+                pw.close();
+                outputStream.close();
+            } catch (Exception e) {
+
+            }
+            try {
+                outputStream= openFileOutput(Periods, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+                for(TimePeriod timeperiod: TimePeriods){
+                    if(!timeperiod.isComplete()) {
+                        pw.println(timeperiod.toString());
+                    }
+                }
+                pw.close();
+                outputStream.close();
+            } catch (Exception e) {
 
             }
             Application highest = HighestUsingApplication();

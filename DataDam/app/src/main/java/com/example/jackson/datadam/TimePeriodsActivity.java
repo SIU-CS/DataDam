@@ -1,86 +1,83 @@
 package com.example.jackson.datadam;
-
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.Dialog;
-import android.app.AlertDialog;
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Button;
-import android.app.ActivityManager;
-import android.content.Context;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.*;
+import com.example.jackson.datadam.DataLimit;
+import com.example.jackson.datadam.R;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class DataLimitsActivity extends Activity {
+
+public class TimePeriodsActivity extends Activity {
     private Handler mHandler= new Handler();
-    private final String TAG = "::DATALIMITSACTIVITY::";
     ActivityManager manager;
     FileInputStream inputStream;
     FileOutputStream outputStream;
-    String Limits= "DataDamLimits";
-    List<DataLimit> DataLimits= new ArrayList<DataLimit>();
-    ArrayList<DataLimit> DataLimitsArray = new ArrayList<>(DataLimits);
+    String Periods= "DataDamPeriods";
+    List<TimePeriod> TimePeriods= new ArrayList<TimePeriod>();
     final Context context= this;
 
-    public void onCreate(Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.datalimit_activity);
-        final Button Add =(Button) findViewById(R.id.Add);
+        setContentView(R.layout.timeperiod_activity);
+        final Button Add = (Button) findViewById(R.id.Add);
         final Button Home = (Button) findViewById(R.id.Home);
-        final ListView Dataname= (ListView) findViewById(R.id.DataLimitsList);
+        final TextView Dataname = (TextView) findViewById(R.id.DataName);
         try {
-            inputStream = openFileInput(Limits);
+            inputStream = openFileInput(Periods);
             Scanner scaninput = new Scanner(inputStream);
             while (scaninput.hasNext()) {
                 String name = scaninput.next();
-                long bytes = Long.parseLong(scaninput.next());
+                int timeperiod = Integer.parseInt(scaninput.next());
+                int timepast= Integer.parseInt(scaninput.next());
                 long bytesused = Long.parseLong(scaninput.next());
                 String notification = scaninput.next();
-                DataLimit newdatalimit = new DataLimit(name, bytes, bytesused, notification);
-                DataLimits.add(newdatalimit);
+                TimePeriod newtimeperiod = new TimePeriod(name, timeperiod, timepast, bytesused, notification);
+                TimePeriods.add(newtimeperiod);
             }
             scaninput.close();
             inputStream.close();
         } catch (Exception e) {
-            Log.d(TAG, "Exeception Thrown"+e.getMessage());
+
         }
 
-
-        Add.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-
+        Add.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 final Dialog addDialog = new Dialog(context);
-                addDialog.setContentView(R.layout.datalimit_add);
-                addDialog.setTitle("Add Data Limit");
+                addDialog.setContentView(R.layout.timeperiod_add);
+                addDialog.setTitle("Add Time Period");
                 Button Cancel = (Button) addDialog.findViewById(R.id.Cancel);
                 Button AddData = (Button) addDialog.findViewById(R.id.Add);
                 AddData.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
                         EditText name = (EditText) addDialog.findViewById(R.id.NameText);
-                        EditText bytes = (EditText) addDialog.findViewById(R.id.Bytes);
+                        EditText time = (EditText) addDialog.findViewById(R.id.Time);
                         EditText notificaiton = (EditText) addDialog.findViewById(R.id.NotificationString);
                         String sName = name.getText().toString();
-                        String sBytes = bytes.getText().toString();
+                        String sTime = time.getText().toString();
                         String snotification = notificaiton.getText().toString();
-                        if (sName.matches("") || sBytes.matches("") || snotification.matches("")) {
+                        if (sName.matches("") || sTime.matches("") || snotification.matches("")) {
                             Toast.makeText(getApplicationContext(), "You have a blank selection", Toast.LENGTH_SHORT).show();
                             return;
                         }
-                        DataLimit newlimit = new DataLimit(sName, Long.parseLong(sBytes, 10), snotification);
-                        DataLimits.add(newlimit);
+                        TimePeriod newperiod = new TimePeriod(sName, Integer.parseInt(sTime, 10), snotification);
+                        Dataname.setText(newperiod.toString());
+                        TimePeriods.add(newperiod);
                         addDialog.dismiss();
-
 
                     }
                 });
@@ -92,13 +89,14 @@ public class DataLimitsActivity extends Activity {
                 addDialog.show();
             }
         });
+
         Home.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    outputStream= openFileOutput(Limits, Context.MODE_PRIVATE);
+                    outputStream= openFileOutput(Periods, Context.MODE_PRIVATE);
                     PrintWriter pw = new PrintWriter(outputStream);
-                    for(DataLimit dataLimit: DataLimits){
-                        pw.println(dataLimit.toString());
+                    for(TimePeriod timeperiod: TimePeriods){
+                        pw.println(timeperiod.toString());
                     }
                     pw.close();
                     outputStream.close();
@@ -109,12 +107,9 @@ public class DataLimitsActivity extends Activity {
             }
         });
 
-        ListView listView = (ListView) findViewById(R.id.DataLimitsList);
 
-        ArrayAdapter<DataLimit> adapter = new ArrayAdapter<DataLimit>(this,android.R.layout.simple_expandable_list_item_1,DataLimits);
-        listView.setAdapter(adapter);
+
+
     }
-
-
 
 }
