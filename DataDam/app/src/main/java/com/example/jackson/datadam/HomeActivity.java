@@ -233,14 +233,14 @@ public class HomeActivity extends Activity {
                     application.addBytes(bytes);
                 }  for(DataLimit dataLimit:DataLimits){
 
-                dataLimit.addBytes(rxBytes + txBytes);
+                dataLimit.addBytes(currentTX+currentTX);
                 if(dataLimit.isComplete()) {
                     Toast.makeText(getApplicationContext(), dataLimit.getNotification(), Toast.LENGTH_SHORT).show();
                     DataLimits.remove(dataLimit);
                 }
             }
             for(TimePeriod timePeriod:TimePeriods){
-                timePeriod.addTime(timepast,rxBytes+txBytes);
+                timePeriod.addTime(timepast,currentRX+currentTX);
                 if(timePeriod.isComplete()){
                     Toast.makeText(getApplicationContext(), timePeriod.getNotification(), Toast.LENGTH_SHORT).show();
                     TimePeriods.remove(timePeriod);
