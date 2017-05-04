@@ -6,8 +6,10 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,7 +38,7 @@ public class TimePeriodsActivity extends Activity {
         setContentView(R.layout.timeperiod_activity);
         final Button Add = (Button) findViewById(R.id.Add);
         final Button Home = (Button) findViewById(R.id.Home);
-        final TextView Dataname = (TextView) findViewById(R.id.DataName);
+        final ListView Dataname = (ListView) findViewById(R.id.TimePeriodsList);
         try {
             inputStream = openFileInput(Periods);
             Scanner scaninput = new Scanner(inputStream);
@@ -75,7 +77,6 @@ public class TimePeriodsActivity extends Activity {
                             return;
                         }
                         TimePeriod newperiod = new TimePeriod(sName, Integer.parseInt(sTime, 10), snotification);
-                        Dataname.setText(newperiod.toString());
                         TimePeriods.add(newperiod);
                         addDialog.dismiss();
 
@@ -107,7 +108,10 @@ public class TimePeriodsActivity extends Activity {
             }
         });
 
+        ListView listView = (ListView) findViewById(R.id.TimePeriodsList);
 
+        ArrayAdapter<TimePeriod> adapter = new ArrayAdapter<TimePeriod>(this,android.R.layout.simple_expandable_list_item_1,TimePeriods);
+        listView.setAdapter(adapter);
 
 
     }

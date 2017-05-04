@@ -34,10 +34,9 @@
             android:id="@+id/Home" />
     </LinearLayout>
 
-    <TextView
-        android:text="DataName"
+    <ListView
+        android:id="@+id/TimePeriodsList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/DataName" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

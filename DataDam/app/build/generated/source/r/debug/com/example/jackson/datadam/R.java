@@ -2295,7 +2295,6 @@ containing a value of this type.
         public static final int Cancel=0x7f0b006b;
         public static final int DataLimits=0x7f0b006c;
         public static final int DataLimitsList=0x7f0b0064;
-        public static final int DataName=0x7f0b008c;
         public static final int HN=0x7f0b0070;
         public static final int HV=0x7f0b0071;
         public static final int Home=0x7f0b0063;
@@ -2309,6 +2308,7 @@ containing a value of this type.
         public static final int TX=0x7f0b0073;
         public static final int Time=0x7f0b008e;
         public static final int TimePeriods=0x7f0b006d;
+        public static final int TimePeriodsList=0x7f0b008c;
         public static final int action0=0x7f0b0078;
         public static final int action_bar=0x7f0b004f;
         public static final int action_bar_activity_content=0x7f0b0000;

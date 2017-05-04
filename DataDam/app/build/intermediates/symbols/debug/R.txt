@@ -574,7 +574,6 @@ int id Bytes 0x7f0b0068
 int id Cancel 0x7f0b006b
 int id DataLimits 0x7f0b006c
 int id DataLimitsList 0x7f0b0064
-int id DataName 0x7f0b008c
 int id HN 0x7f0b0070
 int id HV 0x7f0b0071
 int id Home 0x7f0b0063
@@ -588,6 +587,7 @@ int id RX 0x7f0b006f
 int id TX 0x7f0b0073
 int id Time 0x7f0b008e
 int id TimePeriods 0x7f0b006d
+int id TimePeriodsList 0x7f0b008c
 int id action0 0x7f0b0078
 int id action_bar 0x7f0b004f
 int id action_bar_activity_content 0x7f0b0000
