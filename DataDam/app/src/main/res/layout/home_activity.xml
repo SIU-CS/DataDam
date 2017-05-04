@@ -40,6 +40,18 @@
         android:id="@+id/TimePeriods"
         android:text="Time Periods"
         android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:onClick="sendMessage"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 </LinearLayout>
 
     <LinearLayout

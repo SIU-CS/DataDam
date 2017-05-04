@@ -211,6 +211,25 @@ public class HomeActivity extends Activity {
     //Compares current bytes used to previous markers to assess how much data has been used within that time frame
     //The values for the total data used by the device and the data for individual mAppList is updated by adding the data used in the time frame to each individual total.
 
+
+
+
+    ////////////////////////////////////////////////////////////////////GRAPH BUTTON FUNCTIONALITY///////////////
+    public void sendMessage(View view){
+
+        Intent startNewActivity =  new Intent(this, DisplayMessageActivity.class);
+
+        //EditText theEditText = (EditText) findViewById(R.id.edit_message);
+        // String message = theEditText.get
+
+        startActivity(startNewActivity);
+
+
+
+
+
+    }
+
     private final Runnable mRunnable = new Runnable() {
         public void run() {
             Applicationupdate(manager);

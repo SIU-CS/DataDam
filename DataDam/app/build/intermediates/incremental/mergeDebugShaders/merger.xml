@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/utsav/Desktop/DATA DAM NEW/DataDam-production/DataDam/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/utsav/Desktop/DATA DAM NEW/DataDam-production/DataDam/app/src/debug/shaders"/></dataSet></merger>
