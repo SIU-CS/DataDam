@@ -233,7 +233,7 @@ public class HomeActivity extends Activity {
                     application.addBytes(bytes);
                 }  for(DataLimit dataLimit:DataLimits){
 
-                dataLimit.addBytes(currentTX+currentTX);
+                dataLimit.addBytes(currentRX+currentTX);
                 if(dataLimit.isComplete()) {
                     Toast.makeText(getApplicationContext(), dataLimit.getNotification(), Toast.LENGTH_SHORT).show();
                     DataLimits.remove(dataLimit);
