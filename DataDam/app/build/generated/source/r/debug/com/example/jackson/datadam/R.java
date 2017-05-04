@@ -2287,9 +2287,9 @@ containing a value of this type.
         public static final int notify_panel_notification_icon_bg=0x7f02005d;
     }
     public static final class id {
-        public static final int HN=0x7f0b0062;
-        public static final int HV=0x7f0b0063;
-        public static final int RX=0x7f0b0061;
+        public static final int HN=0x7f0b0064;
+        public static final int HV=0x7f0b005f;
+        public static final int RX=0x7f0b005e;
         public static final int action0=0x7f0b0069;
         public static final int action_bar=0x7f0b004f;
         public static final int action_bar_activity_content=0x7f0b0000;
@@ -2310,7 +2310,7 @@ containing a value of this type.
         public static final int action_text=0x7f0b0068;
         public static final int actions=0x7f0b0076;
         public static final int activity_chooser_view_content=0x7f0b002f;
-        public static final int activity_main=0x7f0b005e;
+        public static final int activity_main=0x7f0b0061;
         public static final int add=0x7f0b001b;
         public static final int alertTitle=0x7f0b0043;
         public static final int all=0x7f0b000e;
@@ -2318,7 +2318,7 @@ containing a value of this type.
         public static final int basic=0x7f0b000f;
         public static final int beginning=0x7f0b0022;
         public static final int bottom=0x7f0b002a;
-        public static final int button=0x7f0b0064;
+        public static final int button=0x7f0b0065;
         public static final int buttonPanel=0x7f0b0036;
         public static final int cancel_action=0x7f0b006a;
         public static final int chains=0x7f0b0010;
@@ -2342,12 +2342,12 @@ containing a value of this type.
         public static final int icon_group=0x7f0b0077;
         public static final int ifRoom=0x7f0b0027;
         public static final int image=0x7f0b0031;
-        public static final int imageView=0x7f0b005f;
+        public static final int imageView=0x7f0b0062;
         public static final int info=0x7f0b0073;
-        public static final int label=0x7f0b0060;
+        public static final int label=0x7f0b0063;
         public static final int line1=0x7f0b0078;
         public static final int line3=0x7f0b007a;
-        public static final int lineChart=0x7f0b0065;
+        public static final int lineChart=0x7f0b0060;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b0033;
         public static final int media_actions=0x7f0b006c;

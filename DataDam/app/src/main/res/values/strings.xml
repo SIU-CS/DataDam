@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">DataDam</string>
 
-    <string name="button_send">Send</string>
+    <string name="button_send">Click to View Graph</string>
 </resources>

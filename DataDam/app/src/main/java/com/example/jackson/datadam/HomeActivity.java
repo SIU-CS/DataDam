@@ -39,8 +39,10 @@ public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
     private long PreviousRX = 0;
     private long PreviousTX= 0;
-    private long currentRX, currentTX, rxBytes, txBytes, TotalxBytes;
+    static long currentRX, currentTX, rxBytes, txBytes, TotalxBytes;
     ActivityManager manager;
+
+
 
     ConnectivityManager connectMgn;
 

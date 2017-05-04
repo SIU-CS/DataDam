@@ -566,9 +566,9 @@ int drawable notification_template_icon_bg 0x7f02005e
 int drawable notification_template_icon_low_bg 0x7f02005f
 int drawable notification_tile_bg 0x7f02005c
 int drawable notify_panel_notification_icon_bg 0x7f02005d
-int id HN 0x7f0b0062
-int id HV 0x7f0b0063
-int id RX 0x7f0b0061
+int id HN 0x7f0b0064
+int id HV 0x7f0b005f
+int id RX 0x7f0b005e
 int id action0 0x7f0b0069
 int id action_bar 0x7f0b004f
 int id action_bar_activity_content 0x7f0b0000
@@ -589,7 +589,7 @@ int id action_mode_close_button 0x7f0b002e
 int id action_text 0x7f0b0068
 int id actions 0x7f0b0076
 int id activity_chooser_view_content 0x7f0b002f
-int id activity_main 0x7f0b005e
+int id activity_main 0x7f0b0061
 int id add 0x7f0b001b
 int id alertTitle 0x7f0b0043
 int id all 0x7f0b000e
@@ -597,7 +597,7 @@ int id always 0x7f0b0025
 int id basic 0x7f0b000f
 int id beginning 0x7f0b0022
 int id bottom 0x7f0b002a
-int id button 0x7f0b0064
+int id button 0x7f0b0065
 int id buttonPanel 0x7f0b0036
 int id cancel_action 0x7f0b006a
 int id chains 0x7f0b0010
@@ -621,12 +621,12 @@ int id icon 0x7f0b0034
 int id icon_group 0x7f0b0077
 int id ifRoom 0x7f0b0027
 int id image 0x7f0b0031
-int id imageView 0x7f0b005f
+int id imageView 0x7f0b0062
 int id info 0x7f0b0073
-int id label 0x7f0b0060
+int id label 0x7f0b0063
 int id line1 0x7f0b0078
 int id line3 0x7f0b007a
-int id lineChart 0x7f0b0065
+int id lineChart 0x7f0b0060
 int id listMode 0x7f0b0012
 int id list_item 0x7f0b0033
 int id media_actions 0x7f0b006c
