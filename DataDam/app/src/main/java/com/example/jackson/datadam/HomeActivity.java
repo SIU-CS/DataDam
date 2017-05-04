@@ -252,9 +252,9 @@ public class HomeActivity extends Activity {
                     DataLimits.remove(dataLimit);
                 }
             }
-            for(TimePeriod timePeriod:TimePeriods){
-                timePeriod.addTime(timepast,);
-            }
+//            for(TimePeriod timePeriod:TimePeriods){
+//                timePeriod.addTime(timepast,);
+//            }
 
             try {
                 outputStream=openFileOutput(storage, Context.MODE_PRIVATE);
