@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -22,6 +23,7 @@ import java.util.Scanner;
 
 public class DataLimitsActivity extends Activity {
     private Handler mHandler= new Handler();
+    private final String TAG = "::DATALIMITSACTIVITY::";
     ActivityManager manager;
     FileInputStream inputStream;
     FileOutputStream outputStream;
@@ -49,10 +51,8 @@ public class DataLimitsActivity extends Activity {
             scaninput.close();
             inputStream.close();
         } catch (Exception e) {
-
-
+            Log.d(TAG, "Exeception Thrown"+e.getMessage());
         }
-
 
         Add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

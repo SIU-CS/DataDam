@@ -53,13 +53,10 @@ public class TimePeriodsActivity extends Activity {
             inputStream.close();
         } catch (Exception e) {
 
-
         }
-
 
         Add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 final Dialog addDialog = new Dialog(context);
                 addDialog.setContentView(R.layout.timeperiod_add);
                 addDialog.setTitle("Add Time Period");
@@ -92,6 +89,7 @@ public class TimePeriodsActivity extends Activity {
                 addDialog.show();
             }
         });
+
         Home.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
