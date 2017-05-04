@@ -44,6 +44,6 @@ class Application{
 
     @Override
     public String toString(){
-        return name+" " + "\n"+ bytes / 1000 + "kB";
+        return name + " " + bytes / 1000 + "kB";
     }
 }

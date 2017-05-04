@@ -15,6 +15,7 @@ import java.util.ArrayList;
         import android.widget.ListView;
         import android.widget.TextView;
         import android.widget.Button;
+        import android.widget.ImageButton;
         import android.app.ActivityManager;
         import android.content.Context;
         import android.app.ActivityManager.RunningServiceInfo;
@@ -62,6 +63,8 @@ public class HomeActivity extends Activity {
 
 
 
+
+
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
@@ -70,56 +73,67 @@ public class HomeActivity extends Activity {
         PreviousTX = TrafficStats.getTotalTxBytes();
         RX = (TextView) findViewById(R.id.RX);
         TX = (TextView) findViewById(R.id.TX);
-        HighestName= (TextView) findViewById(R.id.HN);
-        HighestValue= (TextView) findViewById(R.id.HV);
+        HighestName = (TextView) findViewById(R.id.HN);
+        HighestValue = (TextView) findViewById(R.id.HV);
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        final Button DataLimits= (Button) findViewById(R.id.DataLimits);
-        final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
+        connectMgn = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        final Button DataLimits = (Button) findViewById(R.id.DataLimits);
+        //final ImageButton refresh = (ImageButton) findViewById(R.id.imageButton);
+        final Intent DataIntent = new Intent(HomeActivity.this, DataLimitsActivity.class);
         //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
         try {
-            outputStream=openFileOutput(storage, Context.MODE_APPEND);
+            outputStream = openFileOutput(storage, Context.MODE_APPEND);
             outputStream.close();
-        }catch(Exception e){
+        } catch (Exception e) {
 
         }
         try {
-            outputStream=openFileOutput(Limits,Context.MODE_APPEND);
+            outputStream = openFileOutput(Limits, Context.MODE_APPEND);
             outputStream.close();
-        }catch(Exception e){
+        } catch (Exception e) {
 
         }
 
         //Reads from storage file then populates the rx, tx, and mAppList with data from the scanner.
-        try{
-               inputStream=openFileInput(storage);
-               Scanner scaninput= new Scanner(inputStream);
+        try {
+            inputStream = openFileInput(storage);
+            Scanner scaninput = new Scanner(inputStream);
             //Scan once for the totalbytes value
-               rxBytes= Long.parseLong(scaninput.next());
-               txBytes= Long.parseLong(scaninput.next());
+            rxBytes = Long.parseLong(scaninput.next());
+            txBytes = Long.parseLong(scaninput.next());
             //
-               while(scaninput.hasNext()){
-                   int uid = scaninput.nextInt();
-                   String name=scaninput.next();
-                    long previousbytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    long bytes= scaninput.nextLong()+previousbytes;
-                     Application newapplication= new Application(name,uid,previousbytes,bytes);
-                    mAppList.add(newapplication);
-               }
+            while (scaninput.hasNext()) {
+                int uid = scaninput.nextInt();
+                String name = scaninput.next();
+                long previousbytes = TrafficStats.getUidRxBytes(uid) + TrafficStats.getUidTxBytes(uid);
+                long bytes = scaninput.nextLong() + previousbytes;
+                Application newapplication = new Application(name, uid, previousbytes, bytes);
+                mAppList.add(newapplication);
+            }
             scaninput.close();
             inputStream.close();
-        }catch(Exception e){
+        } catch (Exception e) {
 
         }
 
         //Button listener for DataLimits, starts the DataLimits activity on click.
-        DataLimits.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+        DataLimits.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 startActivity(DataIntent);
                 //moveTaskToBack(true);
             }
         });
 
+        //button to refresh list
+//        refresh.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                for(Application application: mAppList){
+//                    int uid = application.getUid();
+//                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
+//                    application.addBytes(bytes);
+//                };
+//            }
+//        });
 
         Applicationupdate(manager);
 // Tests to see whether the Data Dam application is compatible with TrafficStats
@@ -137,7 +151,6 @@ public class HomeActivity extends Activity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,getRunningApps());
         listView.setAdapter(adapter);
-
 
     }
     //Main runnable for Data Dam
@@ -184,6 +197,7 @@ public class HomeActivity extends Activity {
         }
     };
 
+
 // Checks for any new services and adds them to a permanent list
 // If list is empty, the currently running services form a new list
     private void Applicationupdate(ActivityManager manager){
@@ -191,7 +205,12 @@ public class HomeActivity extends Activity {
         if(mAppList.isEmpty()){
             for(RunningServiceInfo runningservice : runningservices){
                 int uid = runningservice.uid;
-                String name=runningservice.service.getPackageName().replace(".", " ").replaceAll("com.", "").replaceAll("sec.", ""). replaceAll("qualcomm", "").replaceAll("org.","").replaceAll("dsi.","");
+                String name=runningservice.service.getPackageName().replace(".", " ").replaceAll("com.", "").replaceAll("sec.", "")
+                        .replaceAll("qualcomm", "").replaceAll("org."," ").replaceAll("dsi.","")
+                        .replaceAll("incallui","").replaceAll("parser","")
+                        .replaceAll("vcast mediamanager","mediamanager").replaceAll("google backuptransport","backuptransport")
+                        .replaceAll("snapchat android","snapchat").replaceAll("android app bluetooth","bluetooth")
+                        .replaceAll("malwarebytes antimalware","malwarebytes antimalware");
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                 Application newapplication= new Application(name,uid,bytes);
                 mAppList.add(newapplication);
@@ -220,6 +239,8 @@ public class HomeActivity extends Activity {
             }
         }
     }
+
+
     //Determines the application that is using the most data.
     //This is done by comparing each mAppList data usage and returning the one with highest value
     private Application HighestUsingApplication(){
@@ -234,6 +255,11 @@ public class HomeActivity extends Activity {
         }
         return highest;
     }
+
+    private Runnable getmRunnable(){
+        return mRunnable;
+    }
+
 }
 
 
