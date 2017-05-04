@@ -17,7 +17,7 @@ android:
 sudo: required
 
 jdk:
-  - oraclesjdk8
+  - oraclejdk8
 
 before_install:
   - mkdir "$ANDROID_HOME/licenses" || true
