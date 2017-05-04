@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml
@@ -43,7 +43,7 @@ MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Seth\.android\bui
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:9:5-42:19
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:9:5-49:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Seth\.android\build-cache\2f99f53dd0c18654d72897ad26a1d690b351014f\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Seth\.android\build-cache\504665e701f21683bf511e836d87768d092cd52c\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Seth\.android\build-cache\1db80b5ce5d4da60a1bbf27e9c32b854a09a2cc6\output\AndroidManifest.xml:23:5-27:19
@@ -54,9 +54,9 @@ MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\User
 MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Seth\.android\build-cache\3ad15ca85ac3ee576839d5617d7042e7add20ab6\output\AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Seth\.android\build-cache\23d1daa873ec90803a4b034d0d4c3793a139f542\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Seth\.android\build-cache\41a764800622edd9c6da23bd00afc9a6b5de83ed\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Seth\.android\build-cache\1b40386444157a7a51229fc3fc82b0928e78baa0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Seth\.android\build-cache\dc78092852ba858bec9151cd38aea6b32b091f9b\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Seth\.android\build-cache\99fe26cfc4773f343b5738f07bb2dea23818d1a4\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Seth\.android\build-cache\ed3db65ceae374bd4346e26d56ff1d5742cb23d6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Seth\.android\build-cache\4d38245458422abbd1433e63527bd8bdbd2faf93\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Seth\.android\build-cache\d7ef984aa0e18cf4962d7637ee98e48d8876a5db\output\AndroidManifest.xml:23:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Seth\.android\build-cache\896d7b775e5919f16ef233da1683647828960d9c\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Seth\.android\build-cache\6317d4d404404c703af2aa0e3133bdefe103dd00\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Seth\.android\build-cache\e8760e9bab50124e5d49de0eb736328d2982ea43\output\AndroidManifest.xml:18:5-19
@@ -91,7 +91,10 @@ MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Seth\.android\bui
 MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Seth\.android\build-cache\d4a52ae2a9ac8790c58f64c2c53f7e58d525119c\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Seth\.android\build-cache\b5b9a9667dade5fdc587143f7ed6072300b6dc49\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Seth\.android\build-cache\27b63b5d4562b3c9b648661d3b6b1f3d3903a18d\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Seth\.android\build-cache\3bf67b1672caae67aec8d9310f22ed29b35fae81\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Seth\.android\build-cache\80719eb8706cd064d374866ba92dc1472cad67ca\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Seth\.android\build-cache\e508abb91b2c6c9f8a59fcf7d8c5a352876a0e87\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Seth\.android\build-cache\a67061e32f2d3a235f6cd7c7590cba39aea67b77\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Seth\.android\build-cache\6529b232cb77ac588aef2aebe8ce0cae397c54e1\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Seth\.android\build-cache\265a09eddf58152491fba873a2c453e3f0e17d7c\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Seth\.android\build-cache\e95cfa73dff176063f1cedf0e2e793778ec60f20\output\AndroidManifest.xml:25:5-20
 	android:label
@@ -126,6 +129,10 @@ activity#com.example.jackson.datadam.DataLimitsActivity
 ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:34:9-40:20
 	android:name
 		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:34:19-53
+activity#com.example.jackson.datadam.TimePeriodsActivity
+ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:9-47:20
+	android:name
+		ADDED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml:41:19-54
 uses-sdk
 INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Seth\.android\build-cache\2f99f53dd0c18654d72897ad26a1d690b351014f\output\AndroidManifest.xml:5:5-7:41
@@ -140,9 +147,9 @@ MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\User
 MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Seth\.android\build-cache\3ad15ca85ac3ee576839d5617d7042e7add20ab6\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Seth\.android\build-cache\23d1daa873ec90803a4b034d0d4c3793a139f542\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Seth\.android\build-cache\41a764800622edd9c6da23bd00afc9a6b5de83ed\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Seth\.android\build-cache\1b40386444157a7a51229fc3fc82b0928e78baa0\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Seth\.android\build-cache\dc78092852ba858bec9151cd38aea6b32b091f9b\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Seth\.android\build-cache\99fe26cfc4773f343b5738f07bb2dea23818d1a4\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Seth\.android\build-cache\ed3db65ceae374bd4346e26d56ff1d5742cb23d6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Seth\.android\build-cache\4d38245458422abbd1433e63527bd8bdbd2faf93\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Seth\.android\build-cache\d7ef984aa0e18cf4962d7637ee98e48d8876a5db\output\AndroidManifest.xml:21:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Seth\.android\build-cache\896d7b775e5919f16ef233da1683647828960d9c\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Seth\.android\build-cache\6317d4d404404c703af2aa0e3133bdefe103dd00\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Seth\.android\build-cache\e8760e9bab50124e5d49de0eb736328d2982ea43\output\AndroidManifest.xml:17:5-43
@@ -184,14 +191,17 @@ MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Seth\.android\bui
 MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Seth\.android\build-cache\d4a52ae2a9ac8790c58f64c2c53f7e58d525119c\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Seth\.android\build-cache\b5b9a9667dade5fdc587143f7ed6072300b6dc49\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Seth\.android\build-cache\27b63b5d4562b3c9b648661d3b6b1f3d3903a18d\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Seth\.android\build-cache\3bf67b1672caae67aec8d9310f22ed29b35fae81\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Seth\.android\build-cache\80719eb8706cd064d374866ba92dc1472cad67ca\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Seth\.android\build-cache\e508abb91b2c6c9f8a59fcf7d8c5a352876a0e87\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Seth\.android\build-cache\a67061e32f2d3a235f6cd7c7590cba39aea67b77\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Seth\.android\build-cache\6529b232cb77ac588aef2aebe8ce0cae397c54e1\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:multidex:1.0.0] C:\Users\Seth\.android\build-cache\52217a184f24807ba9cea08918c6f6874e5de42b\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Seth\.android\build-cache\3b7c3374de63f71567fd34f8e2097b6874304fdc\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Seth\.android\build-cache\265a09eddf58152491fba873a2c453e3f0e17d7c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Seth\.android\build-cache\e95cfa73dff176063f1cedf0e2e793778ec60f20\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\Seth\.android\build-cache\d25b9df4b6160037aeabd7ea0613bf6f892eba3b\output\AndroidManifest.xml:6:5-8:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Seth\.android\build-cache\1b40386444157a7a51229fc3fc82b0928e78baa0\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Seth\.android\build-cache\ed3db65ceae374bd4346e26d56ff1d5742cb23d6\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Seth\Documents\GitHub\DataDam-production\DataDam\app\src\main\AndroidManifest.xml

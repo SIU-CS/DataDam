@@ -119,8 +119,10 @@ public class HomeActivity extends Activity {
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         final Button DataLimitsButton= (Button) findViewById(R.id.DataLimits);
+        final Button TimeperiodButton= (Button) findViewById(R.id.TimePeriods);
         final Button GraphButton= (Button) findViewById(R.id.Graph);
         final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
+        final Intent PeriodIntent= new Intent(HomeActivity.this,TimePeriodsActivity.class);
         final Intent GraphIntent = new Intent(HomeActivity.this,GraphActivity.class);
         //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
         try {
@@ -181,6 +183,25 @@ public class HomeActivity extends Activity {
 
         }
 
+        try {
+            inputStream = openFileInput(Periods);
+            Scanner scaninput = new Scanner(inputStream);
+            while (scaninput.hasNext()) {
+                String name = scaninput.next();
+                int timeperiod = Integer.parseInt(scaninput.next());
+                int timepast= Integer.parseInt(scaninput.next());
+                long bytesused = Long.parseLong(scaninput.next());
+                String notification = scaninput.next();
+                TimePeriod newtimeperiod = new TimePeriod(name, timeperiod, timepast, bytesused, notification);
+                TimePeriods.add(newtimeperiod);
+            }
+            scaninput.close();
+            inputStream.close();
+        } catch (Exception e) {
+
+
+        }
+
         //Button listener for DataLimits, starts the DataLimits activity on click.
         DataLimitsButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -191,6 +212,12 @@ public class HomeActivity extends Activity {
         GraphButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(GraphIntent);
+            }
+        });
+
+        TimeperiodButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(PeriodIntent);
             }
         });
         Applicationupdate(manager);
@@ -252,9 +279,13 @@ public class HomeActivity extends Activity {
                     DataLimits.remove(dataLimit);
                 }
             }
-//            for(TimePeriod timePeriod:TimePeriods){
-//                timePeriod.addTime(timepast,);
-//            }
+           for(TimePeriod timePeriod:TimePeriods){
+             timePeriod.addTime(timepast,rxBytes+txBytes);
+                if(timePeriod.isComplete()){
+                    Toast.makeText(getApplicationContext(), timePeriod.getNotification(), Toast.LENGTH_SHORT).show();
+                    TimePeriods.remove(timePeriod);
+                }
+            }
 
             try {
                 outputStream=openFileOutput(storage, Context.MODE_PRIVATE);
@@ -276,6 +307,19 @@ public class HomeActivity extends Activity {
                 for(DataLimit dataLimit: DataLimits){
                     if(!dataLimit.isComplete()) {
                         pw.println(dataLimit.toString());
+                    }
+                }
+                pw.close();
+                outputStream.close();
+            } catch (Exception e) {
+
+            }
+            try {
+                outputStream= openFileOutput(Periods, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+                for(TimePeriod timeperiod: TimePeriods){
+                    if(!timeperiod.isComplete()) {
+                        pw.println(timeperiod.toString());
                     }
                 }
                 pw.close();
