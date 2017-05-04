@@ -195,7 +195,7 @@ MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Seth\.android\build
 MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Seth\.android\build-cache\e508abb91b2c6c9f8a59fcf7d8c5a352876a0e87\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Seth\.android\build-cache\a67061e32f2d3a235f6cd7c7590cba39aea67b77\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Seth\.android\build-cache\6529b232cb77ac588aef2aebe8ce0cae397c54e1\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\Seth\.android\build-cache\52217a184f24807ba9cea08918c6f6874e5de42b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Seth\.android\build-cache\c6e1466d5363b25e785f8463ed7523ab6e14c0da\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Seth\.android\build-cache\3b7c3374de63f71567fd34f8e2097b6874304fdc\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Seth\.android\build-cache\265a09eddf58152491fba873a2c453e3f0e17d7c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Seth\.android\build-cache\e95cfa73dff176063f1cedf0e2e793778ec60f20\output\AndroidManifest.xml:21:5-23:58
