@@ -6,7 +6,8 @@ public class DataLimit {
     private String name;
     private long datalimit;
     private long bytesused=0;
-    public String notification;
+    private String notification;
+    private boolean complete=false;
     public DataLimit(String name, long datalimit, String notification){
         this.name=name;
         this.datalimit =datalimit;
@@ -22,6 +23,10 @@ public class DataLimit {
     //No flag need for previousbytes due to that being handled by homeactivity
     public void addBytes(long newbytes){
        bytesused+=newbytes;
+        if(bytesused>datalimit){
+            complete=true;
+        }
+
     }
     public long getBytesUsed(){
         return bytesused;
@@ -30,10 +35,12 @@ public class DataLimit {
         return datalimit;
     }
     public String getName(){return name;}
+    public boolean isComplete(){return complete;}
+    public  String getNotification(){return notification;};
 
     @Override
     public String toString(){
-        return name+" "+datalimit+ " "+bytesused;
+        return name+" "+datalimit+ " "+bytesused + " " + notification;
     }
 
 

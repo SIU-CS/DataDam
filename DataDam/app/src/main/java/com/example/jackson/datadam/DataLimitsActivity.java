@@ -29,17 +29,34 @@ public class DataLimitsActivity extends Activity {
     List<DataLimit> DataLimits= new ArrayList<DataLimit>();
     final Context context= this;
 
-    public void onCreate(Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.datalimit_activity);
-        final Button Add =(Button) findViewById(R.id.Add);
+        final Button Add = (Button) findViewById(R.id.Add);
         final Button Home = (Button) findViewById(R.id.Home);
-        final TextView Dataname= (TextView) findViewById(R.id.DataName);
-        //final Intent AddIntent = new Intent(DataLimitsActivity.this,AddDataLimit.class);
+        final TextView Dataname = (TextView) findViewById(R.id.DataName);
+        try {
+            inputStream = openFileInput(Limits);
+            Scanner scaninput = new Scanner(inputStream);
+            while (scaninput.hasNext()) {
+                String name = scaninput.next();
+                long bytes = Long.parseLong(scaninput.next());
+                long bytesused = Long.parseLong(scaninput.next());
+                String notification = scaninput.next();
+                DataLimit newdatalimit = new DataLimit(name, bytes, bytesused, notification);
+                DataLimits.add(newdatalimit);
+            }
+            scaninput.close();
+            inputStream.close();
+        } catch (Exception e) {
 
-        Add.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                //startActivity(AddIntent);
+
+        }
+
+
+        Add.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
                 final Dialog addDialog = new Dialog(context);
                 addDialog.setContentView(R.layout.datalimit_add);
                 addDialog.setTitle("Add Data Limit");
@@ -47,15 +64,17 @@ public class DataLimitsActivity extends Activity {
                 Button AddData = (Button) addDialog.findViewById(R.id.Add);
                 AddData.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        EditText name= (EditText) addDialog.findViewById(R.id.NameText);
-                        EditText bytes= (EditText) addDialog.findViewById(R.id.Bytes);
-                        String sName=name.getText().toString();
-                        String sBytes=bytes.getText().toString();
-                        if(sName.matches("")||sBytes.matches("")){
-                            Toast.makeText(getApplicationContext(), "You have a blank selection",Toast.LENGTH_SHORT).show();
+                        EditText name = (EditText) addDialog.findViewById(R.id.NameText);
+                        EditText bytes = (EditText) addDialog.findViewById(R.id.Bytes);
+                        EditText notificaiton = (EditText) addDialog.findViewById(R.id.NotificationString);
+                        String sName = name.getText().toString();
+                        String sBytes = bytes.getText().toString();
+                        String snotification = notificaiton.getText().toString();
+                        if (sName.matches("") || sBytes.matches("") || snotification.matches("")) {
+                            Toast.makeText(getApplicationContext(), "You have a blank selection", Toast.LENGTH_SHORT).show();
                             return;
                         }
-                        DataLimit newlimit= new DataLimit(sName,Long.parseLong(sBytes,10));
+                        DataLimit newlimit = new DataLimit(sName, Long.parseLong(sBytes, 10), snotification);
                         Dataname.setText(newlimit.toString());
                         DataLimits.add(newlimit);
                         addDialog.dismiss();
@@ -72,42 +91,24 @@ public class DataLimitsActivity extends Activity {
         });
         Home.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-             finish();
+                try {
+                    outputStream= openFileOutput(Limits, Context.MODE_PRIVATE);
+                    PrintWriter pw = new PrintWriter(outputStream);
+                   for(DataLimit dataLimit: DataLimits){
+                       pw.println(dataLimit.toString());
+                   }
+                    pw.close();
+                    outputStream.close();
+                } catch (Exception e) {
+
+                }
+                finish();
             }
         });
-       /* try{
-            inputStream=openFileInput(Limits);
-            Scanner scaninput= new Scanner(inputStream);
-            while(scaninput.hasNext()){
-             String name=scaninput.next();
-             long bytes= Long.parseLong(scaninput.next());
-             DataLimit newdatalimit= new DataLimit(name,bytes);
-             DataLimits.add(newdatalimit);
-            }
-            scaninput.close();
-            inputStream.close();
-        }catch (Exception e){
 
-        }*/
+
+
+
     }
-
-  /*  @Override
-    protected void onResume() {
-        super.onResume();
-        try{
-            inputStream=openFileInput(Limits);
-            Scanner scaninput= new Scanner(inputStream);
-            while(scaninput.hasNext()){
-                String name=scaninput.next();
-                long bytes= Long.parseLong(scaninput.next());
-                DataLimit newdatalimit= new DataLimit(name,bytes);
-                DataLimits.add(newdatalimit);
-            }
-            scaninput.close();
-            inputStream.close();
-        }catch (Exception e){
-
-        }
-    }*/
 
 }

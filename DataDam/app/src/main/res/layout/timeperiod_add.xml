@@ -4,32 +4,32 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:weightSum="10"
-    android:paddingBottom="10dp">
-
-    <TextView
-        android:text="Name:"
-        android:layout_width="0px"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Name"
-        android:layout_weight="1.5"
-        android:textColor="#000000"
-        android:textStyle="bold"/>
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingBottom="10dp">
 
-    <EditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:id="@+id/NameText"
-        android:textColor="#000"
-        android:layout_weight="8.5"
-        android:background="@drawable/edittextborder"/>/>
+        <TextView
+            android:text="Name:"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/Name"
+            android:layout_weight="1.5"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
 
-</LinearLayout>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/NameText"
+            android:textColor="#000"
+            android:layout_weight="8.5"
+            android:background="@drawable/edittextborder"/>/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,19 +39,19 @@
         android:paddingBottom="10dp">
 
         <TextView
-        android:text="Limit:"
-        android:layout_width="0px"
-        android:layout_height="wrap_content"
-        android:id="@+id/Limit"
-        android:layout_weight="1.5"
-        android:textColor="#000000"
-        android:textStyle="bold"/>
+            android:text="Period:"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/Period"
+            android:layout_weight="1.5"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:id="@+id/Bytes"
+            android:id="@+id/Time"
             android:layout_weight="8.5"
             android:textColor="#000"
             android:background="@drawable/edittextborder"/>/>
@@ -81,24 +81,24 @@
             android:textColor="#000"
             android:background="@drawable/edittextborder"/>/>
     </LinearLayout>
-<LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="2">
 
-    <Button
-        android:text="Add"
-        android:layout_width="0px"
-        android:layout_height="wrap_content"
-        android:id="@+id/Add"
-        android:layout_weight="1"/>
+        <Button
+            android:text="Add"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/Add"
+            android:layout_weight="1"/>
 
-    <Button
-        android:text="Cancel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/Cancel"
-        android:layout_weight="1" />
-</LinearLayout>
+        <Button
+            android:text="Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cancel"
+            android:layout_weight="1" />
+    </LinearLayout>
 </LinearLayout>

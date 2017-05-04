@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 
 import java.util.ArrayList;
-
+import java.util.Calendar;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -43,11 +43,16 @@ import java.io.*;
 import java.util.Scanner;
 
 import 	android.app.ListActivity;
+import android.widget.Toast;
 
 public class HomeActivity extends Activity {
     private Handler mHandler = new Handler();
     private long PreviousRX = 0;
     private long PreviousTX= 0;
+    private Calendar recorder= Calendar.getInstance();
+    private int previoustime=0;
+    private int currenttime= recorder.get(Calendar.SECOND);
+    private int timepast=0;
     private long currentRX, currentTX, rxBytes, txBytes;
     ActivityManager manager;
 
@@ -57,10 +62,13 @@ public class HomeActivity extends Activity {
     FileOutputStream outputStream;
     String storage= "DataDamStorage";
     String Limits= "DataDamLimits";
+    String Periods="DataDamPeriods";
 
     List<ActivityManager.RunningServiceInfo> runningservices;
     List<Application> mAppList = new ArrayList<Application>();
     List<DataLimit> DataLimits= new ArrayList<DataLimit>();
+    List<TimePeriod> TimePeriods= new ArrayList<TimePeriod>();
+
 
 //    public List<ActivityManager.RunningAppProcessInfo> processes = AndroidProcesses.getRunningAppProcessInfo(getApplication());
 
@@ -110,8 +118,8 @@ public class HomeActivity extends Activity {
         HighestValue= (TextView) findViewById(R.id.HV);
         manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         connectMgn= (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        final Button DataLimits= (Button) findViewById(R.id.DataLimits);
-        final Button Graph= (Button) findViewById(R.id.Graph);
+        final Button DataLimitsButton= (Button) findViewById(R.id.DataLimits);
+        final Button GraphButton= (Button) findViewById(R.id.Graph);
         final Intent DataIntent = new Intent(HomeActivity.this,DataLimitsActivity.class);
         final Intent GraphIntent = new Intent(HomeActivity.this,GraphActivity.class);
         //Creates a sudo storage file if it doesn't already exist, otherwise does nothing
@@ -123,6 +131,12 @@ public class HomeActivity extends Activity {
         }
         try {
             outputStream=openFileOutput(Limits,Context.MODE_APPEND);
+            outputStream.close();
+        }catch(Exception e){
+
+        }
+        try {
+            outputStream=openFileOutput(Periods,Context.MODE_APPEND);
             outputStream.close();
         }catch(Exception e){
 
@@ -149,19 +163,34 @@ public class HomeActivity extends Activity {
         }catch(Exception e){
 
         }
+        try {
+            inputStream = openFileInput(Limits);
+            Scanner scaninput = new Scanner(inputStream);
+            while (scaninput.hasNext()) {
+                String name = scaninput.next();
+                long bytes = Long.parseLong(scaninput.next());
+                long bytesused = Long.parseLong(scaninput.next());
+                String notification = scaninput.next();
+                DataLimit newdatalimit = new DataLimit(name, bytes, bytesused, notification);
+                DataLimits.add(newdatalimit);
+            }
+            scaninput.close();
+            inputStream.close();
+        } catch (Exception e) {
+
+
+        }
 
         //Button listener for DataLimits, starts the DataLimits activity on click.
-        DataLimits.setOnClickListener(new View.OnClickListener(){
+        DataLimitsButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(DataIntent);
-                //moveTaskToBack(true);
             }
         });
 
-        Graph.setOnClickListener(new View.OnClickListener(){
+        GraphButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(GraphIntent);
-                //moveTaskToBack(true);
             }
         });
         Applicationupdate(manager);
@@ -202,42 +231,67 @@ public class HomeActivity extends Activity {
             totalbytes = TrafficStats.getTotalTxBytes();
             currentTX= totalbytes - PreviousTX;
             PreviousTX= totalbytes;
-            //If the device is offline, Data Dam records the data to the bytes the device has used offline.
-            //Otherwise the system updates the flags to prepare for the next runnable cycle.
-//            if(!isOnline(connectMgn)) {
             rxBytes = rxBytes + currentRX;
             txBytes= txBytes + currentTX;
             RX.setText(Long.toString(rxBytes));
             TX.setText(Long.toString(txBytes));
+            recorder= Calendar.getInstance();
+            previoustime=currenttime;
+            currenttime=recorder.get(Calendar.SECOND);
+            timepast=currenttime-previoustime;
             for(Application application: mAppList){
                 int uid = application.getUid();
                 long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
                 application.addBytes(bytes);
             }
-//                mAppAdapter.notifyDataSetChanged();
+            for(DataLimit dataLimit:DataLimits){
+
+                    dataLimit.addBytes(rxBytes + txBytes);
+                if(dataLimit.isComplete()) {
+                    Toast.makeText(getApplicationContext(), dataLimit.getNotification(), Toast.LENGTH_SHORT).show();
+                    DataLimits.remove(dataLimit);
+                }
+            }
+            for(TimePeriod timePeriod:TimePeriods){
+                timePeriod.addTime(timepast,);
+            }
+
+            try {
+                outputStream=openFileOutput(storage, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+                pw.print(rxBytes + " ");
+                pw.println(txBytes);
+                //
+                for(Application application: mAppList){
+                    pw.println(application.toString());
+                }
+                pw.close();
+                outputStream.close();
+            }catch(Exception e){
+
+            }
+            try {
+                outputStream= openFileOutput(Limits, Context.MODE_PRIVATE);
+                PrintWriter pw = new PrintWriter(outputStream);
+                for(DataLimit dataLimit: DataLimits){
+                    if(!dataLimit.isComplete()) {
+                        pw.println(dataLimit.toString());
+                    }
+                }
+                pw.close();
+                outputStream.close();
+            } catch (Exception e) {
+
+            }
+
             Application highest = HighestUsingApplication();
             HighestName.setText(highest.getName());
             HighestValue.setText(Long.toString(highest.getBytes()));
-//            }
-            /*else{
-                for(Application application: mAppList){
-                    int uid = application.getUid();
-                    long bytes= TrafficStats.getUidRxBytes(uid)+TrafficStats.getUidTxBytes(uid);
-                    application.updatePrevious(bytes);
-                }
-            }*/
+
             mHandler.postDelayed(mRunnable, 1000);
         }
     };
 
-    // Checks to see if the device is online with Wifi with ConnectivityManager
-    // Returns true if network info exists and the phone is connected to a network
-//    public boolean isOnline(ConnectivityManager connectMgn){
-//
-//        NetworkInfo networkInfo = connectMgn.getActiveNetworkInfo();
-//        return (networkInfo != null && networkInfo.isConnected());
-//
-//    }
 // Checks for any new services and adds them to a permanent list
 // If list is empty, the currently running services form a new list
     @RequiresApi(api = Build.VERSION_CODES.FROYO)
