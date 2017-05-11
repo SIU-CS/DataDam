@@ -15,3 +15,5 @@ utsav@siu.edu
 
 Brandt Shultz
 brandt.shultz@siu.edu
+
+To install the most recent version of the app, you need to pull from the master branch and then build the project. You can than either run the project on Android phone of ver. 25 or higher or running simulated environment in Android studio with the same version requirements.
